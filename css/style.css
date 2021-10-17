@@ -1,5 +1,19 @@
+body{
+    margin: 0;
+	padding: 0;
+	border: 0;
+}
+
 .header_icon{
-    height:30px;
+    width:20vw;
+    margin-top: 5.4vw;
+    margin-left: 4.5vw;
+}
+
+.header{
+    width: 100vw;
+    height: 18vw;
+    border-bottom: 2px solid rgb(212, 212, 212);
 }
 
 @media only screen and (max-width: 600px) {
