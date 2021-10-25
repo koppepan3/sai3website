@@ -20,9 +20,9 @@ body{
 
 @media only screen and (min-width: 600px) {
     .header_icon{
-        width:60px;
-        margin-top: 30px;
-        margin-left: 30px;
+        width:100px;
+        margin-top: 22px;
+        margin-left: 22px;
     }
     
     .header{
