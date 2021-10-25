@@ -10,16 +10,30 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Hind:wght@500&family=Montserrat:wght@500&display=swap" rel="stylesheet">
+        <script>
+            let vw = document.body.clientWidth;// スクロールバーを除いた幅を取得
+            document.documentElement.style.setProperty('--vw', vw + 'px');
+        </script>
     </head>
     <body>
         <div class="header">
             <img class="header_icon" src="file/header.png" alt="sai3 icon">
             <div class="header_lists">
-                <h1 class="header_home">HOME</h1>
-                <h1 class="header_article">ARTICLE</h1>
-                <h1 class="header_about">ABOUT</h1>
-                <h1 class="header_links">LINKS</h1>
+                <a href=""><h1 class="header_home">HOME</h1></a>
+                <a href=""><h1 class="header_article">ARTICLE</h1></a>
+                <a href=""><h1 class="header_about">ABOUT</h1></a>
+                <a href=""><h1 class="header_links">LINKS</h1></a>
             </div>
+        </div>
+        <div class="contents">
+            <div class="top_image"><img src="file\NCG203-scaled.jpg" alt="sai3 image"></div>
+            <div class="aboutsai3">
+                <p>お知らせとかアナウンス系の項目がここに入る。実施年月日や概要も</p>
+            </div>
+            <div class="theme">
+                
+            </div>
+
         </div>
     </body>
 </html>
