@@ -49,7 +49,7 @@ body{
         font-family: 'Hind', sans-serif;
         font-size: 1.2vw;
         padding:0;
-        line-height: 5.2vw;
+        line-height: 80px;
         width: 8vw;
     }
 
@@ -59,7 +59,7 @@ body{
     }
 
     .header_home{
-        height: 5.2vw;
+        height: 80px;
         margin: 0;
         padding: 0;
         display: inline-block;
@@ -86,7 +86,7 @@ body{
     }
 
     .header_article{
-        height: 5.2vw;
+        height: 80px;
         margin: 0;
         padding: 0;
         display: inline-block;
@@ -113,7 +113,7 @@ body{
     }
     
     .header_about{
-        height: 5.2vw;
+        height: 80px;
         margin: 0;
         padding: 0;
         display: inline-block;
@@ -140,7 +140,7 @@ body{
     }
     
     .header_links{
-        height: 5.2vw;
+        height: 80px;
         margin: 0;
         padding: 0;
         display: inline-block;
