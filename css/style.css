@@ -50,7 +50,8 @@ body{
         font-size: 16px;
         padding:0;
         line-height: 80px;
-        width: 8vw;
+        width: 90px;
+        letter-spacing: 1.5px;
     }
 
     .header_lists a{
@@ -65,7 +66,7 @@ body{
         display: inline-block;
         position: absolute;
         top:0px;
-        right: 30vw;
+        right: 360px;
     }
 
     .header_home::after {
@@ -92,7 +93,7 @@ body{
         display: inline-block;
         position: absolute;
         top:0px;
-        right: 20vw;
+        right: 270px;
     }
 
     .header_article::after {
@@ -119,7 +120,7 @@ body{
         display: inline-block;
         position: absolute;
         top:0px;
-        right: 10vw;
+        right: 180px;
     }
 
     .header_about::after {
@@ -146,7 +147,7 @@ body{
         display: inline-block;
         position: absolute;
         top:0px;
-        right: 0vw;
+        right: 90px;
     }
 
     .header_links::after {
