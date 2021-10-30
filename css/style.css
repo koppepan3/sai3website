@@ -348,10 +348,12 @@ body{
           width: 100%;
       }
 
+      .slider img{
+          opacity: 1;
+        transition: all 0.5s;
+      }
       .slider img:hover{
-        opacity:50%;
-
-        
+        opacity:0.5;
       }
       
         /*==================================================
