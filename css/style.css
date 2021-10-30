@@ -273,29 +273,41 @@ body{
 
     .theme{
         width: 90%;
-        height: 50vw;
         margin: 0 5%;
         padding: 0;
     }
 
-    .theme h1{
-        font-family: 'Montserrat', sans-serif;
-        font-size: 2.5vw;
-        border-right: 2px solid rgba(0, 0, 0, 0.322);
-        width: 9.5vw;
-        padding-right: 2vw;
+    .alphabet{
         display: inline-block;
-        height: 2.5vw;
+        height: 45px;
+        width: 200px;
+    }
+
+    .alphabet h1{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 45px;
+        border-right: 2px solid rgba(0, 0, 0, 0.322);
+        width: 200px;
+        height: 45px;
         margin: 0;
-        line-height: 2.5vw;
+        line-height: 45px;
         letter-spacing:2px;
     }
 
-    .theme p{
-        font-family: 'Noto Sans JP', sans-serif;
-        font-size: 1.2vw;
+    .hiragana{
         display: inline-block;
-        margin: 0 0 0 2vw;
-        line-height: 1.2vw;
+        height: 45px;
+        width: 200px;
+        margin: 0 0 0 20px;
+    }
+
+    .hiragana h1{
+        font-family: 'Noto Sans JP', sans-serif;
+        font-size: 25px;
+        line-height: 25px;
+        padding: 0;
+        position: relative;
+        top: -5px;
+        margin: 0;
     }
 }
