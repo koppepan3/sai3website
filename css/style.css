@@ -97,6 +97,7 @@ body{
         position: fixed;
         top: 0px;
         background: white;
+        z-index: 999;
     }
 
     .nav-hidden{
