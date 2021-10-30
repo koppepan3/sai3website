@@ -243,11 +243,10 @@ body{
         transform: scale(1, 1);
     }
     
-    .contents{
-        margin: 0;
+    .body_contents{
+        margin: 5%;
         padding: 0;
-        height: 150vw;
-        width: 100%;
+        width: 90%;
     }
 
     .top_image{
@@ -272,36 +271,35 @@ body{
     }
 
     .theme{
-        width: 90%;
-        margin: 0 5%;
+        width: 100%;
+        margin: 0 ;
         padding: 0;
     }
 
-    .alphabet{
+    #alphabet{
         display: inline-block;
         height: 45px;
-        width: 200px;
     }
 
-    .alphabet h1{
+    #alphabet h1{
         font-family: 'Montserrat', sans-serif;
         font-size: 45px;
         border-right: 2px solid rgba(0, 0, 0, 0.322);
-        width: 200px;
+        padding-right:20px ;
         height: 45px;
         margin: 0;
         line-height: 45px;
         letter-spacing:2px;
     }
 
-    .hiragana{
+    #hiragana{
         display: inline-block;
         height: 45px;
         width: 200px;
         margin: 0 0 0 20px;
     }
 
-    .hiragana h1{
+    #hiragana h1{
         font-family: 'Noto Sans JP', sans-serif;
         font-size: 25px;
         line-height: 25px;
@@ -310,4 +308,102 @@ body{
         top: -5px;
         margin: 0;
     }
+
+    .contents{
+        width: 100%;
+        margin: 0 ;
+        padding: 0;
+    }
+
+    ul{
+        margin:0;
+        padding: 0;
+        list-style: none;
+      }
+
+      .slider p{
+        text-align: center;
+        font-family: 'Noto Sans JP', sans-serif;
+        font-size: 20px;
+        font-weight: bold;
+      }
+
+      .slider_contrainer{
+          margin-top: 40px;
+          padding: 0;
+          width: 100%;
+      }
+      
+        /*==================================================
+    スライダーのためのcss
+    ===================================*/
+    .slider {
+        width:94%;
+        margin:0 auto;
+    }
+    
+    .slider img {
+        width:100%;/*スライダー内の画像を横幅100%に*/
+        height:auto;
+    }
+    
+    /*slickのJSで書かれるタグ内、スライド左右の余白調整*/
+    
+    .slider .slick-slide {
+        margin:0 40px;
+    }
+    
+    /*矢印の設定*/
+    
+    /*戻る、次へ矢印の位置*/
+    .slick-prev, 
+    .slick-next {
+        position: absolute;/*絶対配置にする*/
+        top: 42%;
+        cursor: pointer;/*マウスカーソルを指マークに*/
+        outline: none;/*クリックをしたら出てくる枠線を消す*/
+        border-top: 3px solid rgb(53, 53, 53);/*矢印の色*/
+        border-right: 3px solid rgb(53, 53, 53);/*矢印の色*/
+        height: 25px;
+        width: 25px;
+    }
+    
+    .slick-prev {/*戻る矢印の位置と形状*/
+        left: -1.5%;
+        transform: rotate(-135deg);
+    }
+    
+    .slick-next {/*次へ矢印の位置と形状*/
+        right: -1.5%;
+        transform: rotate(45deg);
+    }
+    
+    /*ドットナビゲーションの設定*/
+    
+    .slick-dots {
+        text-align:center;
+        margin:20px 0 0 0;
+    }
+    
+    .slick-dots li {
+        display:inline-block;
+        margin:0 5px;
+    }
+    
+    .slick-dots button {
+        color: transparent;
+        outline: none;
+        width:8px;
+        height:8px;
+        display:block;
+        border-radius:50%;
+        background:rgb(231, 230, 230);/*ドットボタンの色*/
+        padding: 6px;
+    }
+    
+    .slick-dots .slick-active button{
+        background:#333;/*ドットボタンの現在地表示の色*/
+    }
+ 
+
 }
