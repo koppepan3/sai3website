@@ -279,34 +279,34 @@ body{
 
     #alphabet{
         display: inline-block;
-        height: 45px;
+        height: 35px;
     }
 
     #alphabet h1{
         font-family: 'Montserrat', sans-serif;
-        font-size: 45px;
+        font-size: 35px;
         border-right: 2px solid rgba(0, 0, 0, 0.322);
         padding-right:20px ;
-        height: 45px;
+        height: 35px;
         margin: 0;
-        line-height: 45px;
+        line-height: 35px;
         letter-spacing:2px;
     }
 
     #hiragana{
         display: inline-block;
-        height: 45px;
+        height: 35px;
         width: 200px;
         margin: 0 0 0 20px;
     }
 
     #hiragana h1{
         font-family: 'Noto Sans JP', sans-serif;
-        font-size: 25px;
-        line-height: 25px;
+        font-size: 20px;
+        line-height: 20px;
         padding: 0;
         position: relative;
-        top: -5px;
+        top: -3.75px;
         margin: 0;
     }
 
@@ -314,6 +314,19 @@ body{
         width: 100%;
         margin: 0 ;
         padding: 0;
+        display: inline-block;
+    }
+
+    a{
+        color: #333;
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+    }
+
+    a:hover,
+    a:active{
+        text-decoration: none;
     }
 
     ul{
@@ -333,6 +346,12 @@ body{
           margin-top: 40px;
           padding: 0;
           width: 100%;
+      }
+
+      .slider img:hover{
+        opacity:50%;
+
+        
       }
       
         /*==================================================
