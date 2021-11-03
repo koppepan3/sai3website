@@ -12,14 +12,17 @@ body{
     }
     
     .header{
+        position: fixed;
         width: 100%;
         min-height: 60px;
         border-bottom: 2px solid rgb(212, 212, 212);
+        background-color: white;
+        z-index: 999;
     }
 
     #menubtn img{
-        height: 45px;
-        margin: 7.5px;
+        height: 38px;
+        margin: 11px;
         padding: 0;
         position: absolute;
         top: 0;
@@ -46,7 +49,7 @@ body{
 
     .header_lists{
         width: 100%;
-        height: 180px;
+        height: 130px;
         margin: 0;
         padding: 0;
         border: 0;
@@ -58,9 +61,9 @@ body{
     .header_lists h1{
         text-align:center;
         font-family: 'Hind', sans-serif;
-        font-size: 25px;
+        font-size: 20px;
         padding:0;
-        line-height: 25px;
+        line-height: 18px;
         letter-spacing: 1.5px;
     }
 
@@ -76,10 +79,182 @@ body{
         padding: 0;
     }
 
-    .top_image img{
+    .img_pc{
+        display: none;
+    }
+
+    .img_mobile{
+        display: block;
         width: 100%;
         margin: 0;
         padding: 0;
+    }
+
+    .body_contents{
+        margin: 5%;
+        padding: 0;
+        width: 90%;
+    }
+
+    .aboutsai3{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 50vw;
+        text-align: center;
+    }
+
+    .theme{
+        width: 100%;
+        margin: 0 ;
+        padding: 0;
+    }
+
+    #alphabet{
+        display: inline-block;
+        height: 22px;
+    }
+
+    #alphabet h1{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 22px;
+        border-right: 2px solid rgba(0, 0, 0, 0.322);
+        padding-right:8px ;
+        height: 22px;
+        margin: 0;
+        line-height: 22px;
+        letter-spacing:2px;
+    }
+
+    #hiragana{
+        display: inline-block;
+        height: 22px;
+        width: ;
+        margin: 0 0 0 8px;
+        padding: 0;
+    }
+
+    #hiragana h1{
+        font-family: 'Noto Sans JP', sans-serif;
+        font-size: 15px;
+        line-height: 15px;
+        padding: 0;
+        position: relative;
+        top: -1.25px;
+        margin: 0;
+    }
+
+    .contents{
+        width: 100%;
+        margin: 0 ;
+        padding: 0;
+        display: inline-block;
+    }
+
+
+
+    a{
+        color: #333;
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+    }
+
+    a:hover,
+    a:active{
+        text-decoration: none;
+    }
+
+    ul{
+        margin:0;
+        padding: 0;
+        list-style: none;
+      }
+
+    .slider_contrainer p{
+        text-align: center;
+        font-family: 'Noto Sans JP', sans-serif;
+        font-size: 5vw;
+        font-weight: bold;
+        letter-spacing: 0.1vw;
+      }
+
+      .slider_contrainer{
+        margin-top: 40px;
+        padding: 0;
+        width: 100%;
+      }
+
+        /*==================================================
+    スライダーのためのcss
+    ===================================*/
+    .slider {
+        width:94%;
+        margin:0 auto;
+    }
+    
+    .slider img {
+        width:100%;/*スライダー内の画像を横幅100%に*/
+        height:auto;
+    }
+    
+    /*slickのJSで書かれるタグ内、スライド左右の余白調整*/
+    
+    .slider .slick-slide {
+        margin:0 30px;
+    }
+    
+    /*矢印の設定*/
+    
+    /*戻る、次へ矢印の位置*/
+    .slick-prev, 
+    .slick-next {
+        position: absolute;/*絶対配置にする*/
+        top: 42%;
+        cursor: pointer;/*マウスカーソルを指マークに*/
+        outline: none;/*クリックをしたら出てくる枠線を消す*/
+        border-top: 3px solid rgb(53, 53, 53);/*矢印の色*/
+        border-right: 3px solid rgb(53, 53, 53);/*矢印の色*/
+        height: 20px;
+        width: 20px;
+    }
+    
+    .slick-prev {/*戻る矢印の位置と形状*/
+        left: 0%;
+        transform: rotate(-135deg);
+    }
+    
+    .slick-next {/*次へ矢印の位置と形状*/
+        right: 0%;
+        transform: rotate(45deg);
+    }
+    
+    /*ドットナビゲーションの設定*/
+    
+    .slick-dots {
+        text-align:center;
+        margin:15px 0 0 0;
+    }
+    
+    .slick-dots li {
+        display:inline-block;
+        margin:0 5px;
+    }
+    
+    .slick-dots button {
+        color: transparent;
+        outline: none;
+        width:6px;
+        height:6px;
+        display:block;
+        border-radius:50%;
+        background:rgb(231, 230, 230);/*ドットボタンの色*/
+        padding: 6px;
+        border: none;
+    }
+    
+    .slick-dots .slick-active button{
+        background:#333;/*ドットボタンの現在地表示の色*/
     }
 }
 
@@ -157,6 +332,7 @@ body{
         transform: scale(0, 1);
         transform-origin: center top;
         transition: transform .3s;
+        transform: scale(1, 1); /* homeなので*/
     }
 
     .header_home:hover::after {
@@ -263,6 +439,17 @@ body{
         padding: 0;
     }
 
+    .img_pc{
+        display: block;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .img_mobile{
+        display: none;
+    }
+
     .aboutsai3{
         margin: 0;
         padding: 0;
@@ -314,7 +501,7 @@ body{
         width: 100%;
         margin: 0 ;
         padding: 0;
-        display: inline-block;
+        display: block;
     }
 
     a{
@@ -344,13 +531,13 @@ body{
       }
 
       .slider_contrainer{
-          margin-top: 40px;
-          padding: 0;
-          width: 100%;
+        margin-top: 40px;
+        padding: 0;
+        width: 100%;
       }
 
       .slider img{
-          opacity: 1;
+        opacity: 1;
         transition: all 0.5s;
       }
       .slider img:hover{
@@ -429,5 +616,43 @@ body{
         background:#333;/*ドットボタンの現在地表示の色*/
     }
  
+
+
+
+    .footer{
+        margin: 0;
+        padding: 0;
+        border-top: 3px black solid;
+        width: 100%;
+        height: 15vw;
+    }
+
+    .footer_icon_container{
+        width:10vw;
+        margin-top: 5vw;
+        margin-left: 5vw;
+        height: 15vw;
+        display: inline-block;
+    }
+
+    .footer img{
+        width:100%;
+        margin: 0;
+        display: inline-block;
+    }
+
+    .footer_links{
+        width: 40vw;
+        display: inline-block;
+    }
+
+    .footer_links h2{
+        font-size: 1.2vw;
+        line-height: 1.2vw;
+        font-family: 'Noto Sans JP', sans-serif;
+        font-weight: lighter;
+        padding: 1.2vw 0;
+        
+    }
 
 }
