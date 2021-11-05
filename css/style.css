@@ -244,12 +244,12 @@ body{
     .slick-dots button {
         color: transparent;
         outline: none;
-        width:6px;
-        height:6px;
+        width:4px;
+        height:4px;
         display:block;
         border-radius:50%;
         background:rgb(231, 230, 230);/*ドットボタンの色*/
-        padding: 6px;
+        padding: 4px;
         border: none;
     }
     
@@ -290,7 +290,7 @@ body{
         padding: 0;
         border: 0;
         position:absolute;
-        right:3vw;
+        right:0.8vw;
         top: 0;
         font-size: 0;
     }
