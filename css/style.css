@@ -476,12 +476,6 @@ body{
         padding: 0;
     }
 
-    .theme{
-    }
-
-    .contents{
-    }
-
     a{
         color: #333;
         margin: 0;
@@ -494,35 +488,35 @@ body{
         text-decoration: none;
     }
 
-    ul{
+    .slider_contrainer ul{
         margin:0;
         padding: 0;
         list-style: none;
-      }
+    }
 
-      .slider_contrainer p{
+    .slider_contrainer p{
         text-align: center;
         font-family: 'Noto Sans JP', sans-serif;
         font-size: 1.7vw;
         font-weight: bold;
         letter-spacing: 0.1vw;
-      }
+    }
 
-      .slider_contrainer{
+    .slider_contrainer{
         margin-top: 40px;
         padding: 0;
         width: 100%;
-      }
+    }
 
-      .slider img{
+    .slider img{
         opacity: 1;
         transition: all 0.5s;
-      }
-      .slider img:hover{
+    }
+    .slider img:hover{
         opacity:0.5;
-      }
+    }
       
-        /*==================================================
+    /*==================================================
     スライダーのためのcss
     ===================================*/
     .slider {
@@ -536,13 +530,12 @@ body{
     }
     
     /*slickのJSで書かれるタグ内、スライド左右の余白調整*/
-    
     .slider .slick-slide {
         margin:0 40px;
     }
     
     /*矢印の設定*/
-    
+
     /*戻る、次へ矢印の位置*/
     .slick-prev, 
     .slick-next {
@@ -560,24 +553,20 @@ body{
         left: -1.5%;
         transform: rotate(-135deg);
     }
-    
     .slick-next {/*次へ矢印の位置と形状*/
         right: -1.5%;
         transform: rotate(45deg);
     }
     
     /*ドットナビゲーションの設定*/
-    
     .slick-dots {
         text-align:center;
         margin:20px 0 0 0;
     }
-    
     .slick-dots li {
         display:inline-block;
         margin:0 5px;
     }
-    
     .slick-dots button {
         color: transparent;
         outline: none;
@@ -589,12 +578,9 @@ body{
         padding: 7px;
         border: none;
     }
-    
     .slick-dots .slick-active button{
         background:#333;/*ドットボタンの現在地表示の色*/
     }
- 
-
 
 
     .footer{
@@ -602,35 +588,65 @@ body{
         padding: 0;
         border-top: 3px black solid;
         width: 100%;
-        height: 15vw;
+        height: 20vw;
+        position: relative;
     }
 
     .footer_icon_container{
         width:10vw;
-        margin-top: 5vw;
-        margin-left: 5vw;
-        height: 15vw;
+        margin: 0;
+        height: 10vw;
         display: inline-block;
+        padding-top: 5vw;
+        padding-left: 5vw;
     }
 
     .footer img{
         width:100%;
         margin: 0;
-        display: inline-block;
+        display: block;
     }
 
-    .footer_links{
+    .footer ul{
+        margin:0;
+        padding: 0;
+        list-style: none;
         width: 40vw;
         display: inline-block;
+        height: 15vw;
+        position: absolute;
+        top: 0;
+        left: 20vw;
+        padding-top: 3.8vw;
     }
 
-    .footer_links h2{
+
+    .footer_links p{
+        margin: 0;
         font-size: 1.2vw;
         line-height: 1.2vw;
         font-family: 'Noto Sans JP', sans-serif;
         font-weight: lighter;
         padding: 1.2vw 0;
-        
     }
+
+    .address{
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        right: 3vw;
+        bottom: 2vw;
+    }
+
+    .address p{
+        margin: 0;
+        padding: 0;
+        font-size: 1.2vw;
+        line-height: 1.6vw;
+        font-family: 'Noto Sans JP', sans-serif;
+        font-weight: lighter;
+        padding: 0.2vw 0;
+    }
+
 
 }
