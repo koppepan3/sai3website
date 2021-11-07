@@ -104,54 +104,18 @@ body{
         text-align: center;
     }
 
-    .theme{
+    #subtitle{
+        padding:0;
+        margin: 0;
+        height: 13vw;
+    }
+
+    #subcontents{
+        text-align: center;
         width: 100%;
         margin: 0 ;
         padding: 0;
     }
-
-    #alphabet{
-        display: inline-block;
-        height: 22px;
-    }
-
-    #alphabet h1{
-        font-family: 'Montserrat', sans-serif;
-        font-size: 22px;
-        border-right: 2px solid rgba(0, 0, 0, 0.322);
-        padding-right:8px ;
-        height: 22px;
-        margin: 0;
-        line-height: 22px;
-        letter-spacing:2px;
-    }
-
-    #hiragana{
-        display: inline-block;
-        height: 22px;
-        width: ;
-        margin: 0 0 0 8px;
-        padding: 0;
-    }
-
-    #hiragana h1{
-        font-family: 'Noto Sans JP', sans-serif;
-        font-size: 15px;
-        line-height: 15px;
-        padding: 0;
-        position: relative;
-        top: -1.25px;
-        margin: 0;
-    }
-
-    .contents{
-        width: 100%;
-        margin: 0 ;
-        padding: 0;
-        display: inline-block;
-    }
-
-
 
     a{
         color: #333;
@@ -457,51 +421,24 @@ body{
         height: 30vw;
         text-align: center;
     }
+    
+    #subtitle{
+        padding:0;
+        margin: 0;
+        height: 5vw;
+    }
 
-    .theme{
+    #subcontents{
+        text-align: center;
         width: 100%;
         margin: 0 ;
         padding: 0;
     }
 
-    #alphabet{
-        display: inline-block;
-        height: 35px;
-    }
-
-    #alphabet h1{
-        font-family: 'Montserrat', sans-serif;
-        font-size: 35px;
-        border-right: 2px solid rgba(0, 0, 0, 0.322);
-        padding-right:20px ;
-        height: 35px;
-        margin: 0;
-        line-height: 35px;
-        letter-spacing:2px;
-    }
-
-    #hiragana{
-        display: inline-block;
-        height: 35px;
-        width: 200px;
-        margin: 0 0 0 20px;
-    }
-
-    #hiragana h1{
-        font-family: 'Noto Sans JP', sans-serif;
-        font-size: 20px;
-        line-height: 20px;
-        padding: 0;
-        position: relative;
-        top: -3.75px;
-        margin: 0;
+    .theme{
     }
 
     .contents{
-        width: 100%;
-        margin: 0 ;
-        padding: 0;
-        display: block;
     }
 
     a{
