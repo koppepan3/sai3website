@@ -17,14 +17,25 @@
     <body>
         <div class="header">
             <img class="header_icon" src="file/icon.svg" alt="sai3 icon">
-            <input id="nav-input" type="checkbox" class="nav-hidden">
-            <label id="menubtn" for="nav-input"><img src="file\hamburger.svg" alt="menu"></label>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+            <nav class="hamburder_list">
+                <a href=""><h1 class="header_home">HOME</h1></a>
+                <a href=""><h1 class="header_article">ARTICLE</h1></a>
+                <a href=""><h1 class="header_about">ABOUT</h1></a>
+                <a href=""><h1 class="header_links">LINKS</h1></a>
+            </div>
+            <!-- 
             <div class="header_lists">
                 <a href=""><h1 class="header_home">HOME</h1></a>
                 <a href=""><h1 class="header_article">ARTICLE</h1></a>
                 <a href=""><h1 class="header_about">ABOUT</h1></a>
                 <a href=""><h1 class="header_links">LINKS</h1></a>
             </div>
+            -->
         </div>
         <div class="top_image">
             <img class="img_pc" src="file/NCG203-scaled.jpg" alt="sai3 image">
@@ -70,5 +81,18 @@
         <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
         <!--自作のJS-->
         <script src="slicksettings.js"></script>
+        <script>
+            $(function() {
+                $('.hamburger').click(function() {
+                    $(this).toggleClass('active');
+            
+                    if ($(this).hasClass('active')) {
+                        $('.hamburder_list').addClass('active');
+                    } else {
+                        $('.hamburder_list').removeClass('active');
+                    }
+                });
+            });
+        </script>
     </body>
 </html>

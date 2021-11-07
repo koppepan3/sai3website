@@ -7,17 +7,19 @@ body{
 @media only screen and (max-width: 600px) {
     .header_icon{
         width:100px;
-        margin-top: 13px;
-        margin-left: 13px;
+        top: 13px;
+        left: 13px;
+        position: fixed;
+        margin: 0;
+        z-index: 4;
     }
-    
+
     .header{
         position: fixed;
         width: 100%;
         min-height: 60px;
         border-bottom: 2px solid rgb(212, 212, 212);
         background-color: white;
-        z-index: 999;
     }
 
     #menubtn img{
@@ -29,22 +31,54 @@ body{
         right: 0;
     }
 
-    nav{
-        background-color:#ccc;
-        padding:20px 3%;
+    /*　ハンバーガーボタン　*/
+    .hamburger {
+        display : block;
+        position: fixed;
+        z-index : 3;
+        right : 13px;
+        top   : 12px;
+        width : 42px;
+        height: 42px;
+        cursor: pointer;
+        text-align: center;
     }
-
-    #nav-input:checked ~ .header_lists {/*チェック入ってるとき ~ メニューが*/
-        display: block;/*追加*/
-        animation: 1s fadeIn;/*追加*/
+    .hamburger span {
+        display : block;
+        position: absolute;
+        width   : 30px;
+        height  : 2px ;
+        left    : 6px;
+        background : #555;
+        -webkit-transition: 0.3s ease-in-out;
+        -moz-transition   : 0.3s ease-in-out;
+        transition        : 0.3s ease-in-out;
     }
-    @keyframes fadeIn {
-        from { opacity: 0; }/*追加*/
-        to { opacity: 1; }/*追加*/
-      }
-
-    .nav-hidden{
-        display:none;
+    .hamburger span:nth-child(1) {
+        top: 10px;
+    }
+    .hamburger span:nth-child(2) {
+        top: 20px;
+    }
+    .hamburger span:nth-child(3) {
+        top: 30px;
+    }
+    
+    /* ナビ開いてる時のボタン */
+    .hamburger.active span:nth-child(1) {
+        top : 16px;
+        left: 6px;
+        -webkit-transform: rotate(-45deg);
+        -moz-transform   : rotate(-45deg);
+        transform        : rotate(-45deg);
+    }
+    
+    .hamburger.active span:nth-child(2),
+    .hamburger.active span:nth-child(3) {
+        top: 16px;
+        -webkit-transform: rotate(45deg);
+        -moz-transform   : rotate(45deg);
+        transform        : rotate(45deg);
     }
 
     .header_lists{
@@ -56,9 +90,32 @@ body{
         font-size: 0;
         background-color: white;
         display: none;
+        text-align: left;
     }
 
-    .header_lists h1{
+    nav.hamburder_list {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        position: fixed;
+        z-index : 2;
+        top  : 60px;
+        left : 0;
+        color: #000;
+        background: white;
+        text-align: left;
+        transform: translateY(-150%);
+        transition: all 0.6s;
+        width: 100%;
+        height: 160px;
+      }
+      
+      /* このクラスを、jQueryで付与・削除する */
+      nav.hamburder_list.active {
+        transform: translateY(0%);
+      }
+
+    nav.hamburder_list h1{
         font-family: 'Hind', sans-serif;
         font-size: 16px;
         padding: 0 22px;
