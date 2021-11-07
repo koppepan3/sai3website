@@ -285,15 +285,7 @@ body{
         z-index: 999;
     }
 
-    .nav-hidden{
-        display:none;
-    }
-
-    #menubtn img{
-        display:none;
-    }
-
-    .header_lists{
+    nav.hamburger_list{
         width: 50vw;
         height: 5.2vw;
         margin: 0;
@@ -305,7 +297,7 @@ body{
         font-size: 0;
     }
 
-    .header_lists h1{
+    nav.hamburger_list h1{
         text-align:center;
         display:inline-block;
         font-family: 'Hind', sans-serif;
@@ -316,7 +308,7 @@ body{
         letter-spacing: 1.5px;
     }
 
-    .header_lists a{
+    nav.hamburger_list a{
         text-decoration: none;
         color:black;
     }
