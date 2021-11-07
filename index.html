@@ -16,13 +16,14 @@
     </head>
     <body>
         <div class="header">
+            <div class="justbackground"></div>
             <img class="header_icon" src="file/icon.svg" alt="sai3 icon">
             <div class="hamburger">
                 <span></span>
                 <span></span>
                 <span></span>
               </div>
-            <nav class="hamburder_list">
+            <nav class="hamburger_list">
                 <a href=""><h1 class="header_home">HOME</h1></a>
                 <a href=""><h1 class="header_article">ARTICLE</h1></a>
                 <a href=""><h1 class="header_about">ABOUT</h1></a>
@@ -87,9 +88,9 @@
                     $(this).toggleClass('active');
             
                     if ($(this).hasClass('active')) {
-                        $('.hamburder_list').addClass('active');
+                        $('.hamburger_list').addClass('active');
                     } else {
-                        $('.hamburder_list').removeClass('active');
+                        $('.hamburger_list').removeClass('active');
                     }
                 });
             });

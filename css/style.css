@@ -11,7 +11,7 @@ body{
         left: 13px;
         position: fixed;
         margin: 0;
-        z-index: 4;
+        z-index: 904;
     }
 
     .header{
@@ -20,22 +20,22 @@ body{
         min-height: 60px;
         border-bottom: 2px solid rgb(212, 212, 212);
         background-color: white;
+        z-index: 903;
     }
 
-    #menubtn img{
-        height: 38px;
-        margin: 11px;
-        padding: 0;
-        position: absolute;
-        top: 0;
-        right: 0;
+    .justbackground{
+        position: fixed;
+        width: 100%;
+        height: 60px;
+        background-color: white;
+        z-index: 902;
     }
 
     /*　ハンバーガーボタン　*/
     .hamburger {
         display : block;
         position: fixed;
-        z-index : 3;
+        z-index : 903;
         right : 13px;
         top   : 12px;
         width : 42px;
@@ -81,24 +81,13 @@ body{
         transform        : rotate(45deg);
     }
 
-    .header_lists{
-        width: 100%;
-        height: 150px;
-        margin: 0;
-        padding: 0;
-        border: 0;
-        font-size: 0;
-        background-color: white;
-        display: none;
-        text-align: left;
-    }
 
-    nav.hamburder_list {
+    nav.hamburger_list {
         margin: 0;
         padding: 0;
         border: 0;
         position: fixed;
-        z-index : 2;
+        z-index : 901;
         top  : 60px;
         left : 0;
         color: #000;
@@ -108,22 +97,22 @@ body{
         transition: all 0.6s;
         width: 100%;
         height: 160px;
-      }
+    }
       
-      /* このクラスを、jQueryで付与・削除する */
-      nav.hamburder_list.active {
+    /* このクラスを、jQueryで付与・削除する */
+    nav.hamburger_list.active {
         transform: translateY(0%);
-      }
+    }
 
-    nav.hamburder_list h1{
+    nav.hamburger_list h1{
         font-family: 'Hind', sans-serif;
-        font-size: 16px;
-        padding: 0 22px;
-        line-height: 24px;
+        font-size: 15px;
+        padding: 0 24px;
+        line-height: 25px;
         letter-spacing: 1.5px;
     }
 
-    .header_lists a{
+    nav.hamburger_list a{
         text-decoration: none;
         color: black;
     }
@@ -203,6 +192,7 @@ body{
         margin-top: 40px;
         padding: 0;
         width: 100%;
+    
       }
 
         /*==================================================
