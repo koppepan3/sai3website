@@ -308,10 +308,17 @@ body{
 
     .footer_links p{
         margin: 0;
+<<<<<<< HEAD
         font-size: 3.2vw;
         line-height: 4.4vw;
         font-family: 'Noto Sans JP', sans-serif;
         font-weight: bold;
+=======
+        font-size: 4.4vw;
+        line-height: 4.4vw;
+        font-family: 'Noto Sans JP', sans-serif;
+        font-weight: lighter;
+>>>>>>> 426b3cc61d11b9eabfdc931ba0b3fbfdd527b1a9
         padding: 0 0 4.6vw 0;
     }
 
@@ -324,6 +331,7 @@ body{
         top: 20vw;
     }
 
+<<<<<<< HEAD
     .address p {
         margin: 0;
         padding: 0;
@@ -333,6 +341,16 @@ body{
         font-weight: bold;
         padding: 0.2px 0;
         letter-spacing: 0.3px;
+=======
+    .address p{
+        margin: 0;
+        padding: 0;
+        font-size: 4vw;
+        line-height: 5.6vw;
+        font-family: 'Noto Sans JP', sans-serif;
+        font-weight: lighter;
+        padding: 0.2vw 0;
+>>>>>>> 426b3cc61d11b9eabfdc931ba0b3fbfdd527b1a9
     }
 }
 
