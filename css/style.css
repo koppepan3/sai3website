@@ -269,6 +269,71 @@ body{
     .slick-dots .slick-active button{
         background:#333;/*ドットボタンの現在地表示の色*/
     }
+
+    .footer{
+        margin: 0;
+        padding: 0;
+        border-top: 3px black solid;
+        width: 100%;
+        height: 50vw;
+        position: relative;
+    }
+
+    .footer_icon_container{
+        width:28vw;
+        margin: 0;
+        height: auto;
+        display: inlne-block;
+        padding-top: 5vw;
+        padding-left: 5vw;
+    }
+
+    .footer img{
+        width:100%;
+        margin: 0;
+        display: block;
+    }
+
+    .footer ul{
+        margin:0;
+        padding: 0;
+        list-style: none;
+        width: 60vw;
+        display: inlne-block;
+        position: absolute;
+        top: 5vw;
+        left: 40vw;
+    }
+
+
+    .footer_links p{
+        margin: 0;
+        font-size: 3.2vw;
+        line-height: 4.4vw;
+        font-family: 'Noto Sans JP', sans-serif;
+        font-weight: bold;
+        padding: 0 0 4.6vw 0;
+    }
+
+    .address{
+        margin: 0;
+        padding: 0;
+        position: static;
+        text-align: center;
+        position: relative;
+        top: 20vw;
+    }
+
+    .address p {
+        margin: 0;
+        padding: 0;
+        font-size: 2.8vw;
+        line-height: 5.6vw;
+        font-family: 'Noto Sans JP', sans-serif;
+        font-weight: bold;
+        padding: 0.2px 0;
+        letter-spacing: 0.3px;
+    }
 }
 
 @media only screen and (min-width: 600px) {
@@ -593,12 +658,12 @@ body{
     }
 
     .footer_icon_container{
-        width:10vw;
+        width:180px;
         margin: 0;
         height: 10vw;
         display: inline-block;
-        padding-top: 5vw;
-        padding-left: 5vw;
+        padding-top: 60px;
+        padding-left: 60px;
     }
 
     .footer img{
@@ -609,25 +674,24 @@ body{
 
     .footer ul{
         margin:0;
-        padding: 0;
+        padding: 40px 0;
         list-style: none;
         width: 40vw;
         display: inline-block;
         height: 15vw;
         position: absolute;
         top: 0;
-        left: 20vw;
-        padding-top: 3.8vw;
+        left: 330px;
     }
 
 
     .footer_links p{
         margin: 0;
-        font-size: 1.2vw;
+        font-size: 17px;
         line-height: 1.2vw;
         font-family: 'Noto Sans JP', sans-serif;
-        font-weight: lighter;
-        padding: 1.2vw 0;
+        font-weight: bold;
+        padding: 20px;
     }
 
     .address{
@@ -641,10 +705,10 @@ body{
     .address p{
         margin: 0;
         padding: 0;
-        font-size: 1.2vw;
+        font-size: 12px;
         line-height: 1.6vw;
         font-family: 'Noto Sans JP', sans-serif;
-        font-weight: lighter;
+        font-weight: bold;
         padding: 0.2vw 0;
     }
 
