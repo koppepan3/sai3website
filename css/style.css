@@ -4,7 +4,7 @@ body{
     border: 0;
 }
 
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 600px) {
     .header_icon{
         width:100px;
         top: 13px;
@@ -336,7 +336,7 @@ body{
     }
 }
 
-@media only screen and (min-width: 850px) {
+@media only screen and (min-width: 600px) {
     .header_icon{
         width:100px;
         margin-top: 22px;
@@ -694,12 +694,11 @@ body{
         padding: 20px;
     }
 
-    .address{
-        margin: 0;
-        padding: 0;
-        position: absolute;
-        right: 3vw;
-        bottom: 2rvw;
+    .address {
+        padding-top: 80px;
+        padding-right: 30px;
+        padding-bottom: 40px;
+        text-align: right;
     }
 
     .address p{
