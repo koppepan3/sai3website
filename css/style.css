@@ -647,6 +647,22 @@ body{
         background:#333;/*ドットボタンの現在地表示の色*/
     }
 
+    .flex-container{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    #flex-contents{
+        width: 400px;
+        margin: 20px;
+    }
+
+    #flex-contents img{
+        width: 100%;
+    }
+
 
     .footer{
         margin: 0;
