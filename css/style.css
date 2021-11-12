@@ -156,6 +156,41 @@ body{
         height: 13vw;
     }
 
+    .theme_container{
+        width: 100%;
+        padding: 0;
+        margin:0;
+    }
+
+    .theme_pic_container{
+        width: 80%;
+        margin: 0;
+        padding: 0 10%;
+    }
+
+    .theme_pic_container img{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .theme_description{
+        width: 100%;
+        margin: 5vw 0;
+    }
+
+    .theme_description p{
+        width: 90%;
+        padding: 0;
+        margin: 0 5%;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 1px;
+        text-align: left;
+        font-family: 'Noto Sans JP', sans-serif;
+        font-weight: bold;
+    }
+
     #subcontents{
         text-align: center;
         width: 100%;
@@ -455,7 +490,7 @@ body{
         display: inline-block;
         position: absolute;
         top:0px;
-        right: 200px;
+        right: 202px;
     }
 
     .header_contents::after {
@@ -482,7 +517,7 @@ body{
         display: inline-block;
         position: absolute;
         top:0px;
-        right: 100px;
+        right: 93px;
     }
 
     .header_articles::after {
@@ -571,6 +606,50 @@ body{
         padding:0;
         margin: 0;
         height: 60px;
+    }
+
+    .theme_container{
+        width: 100%;
+        padding: 0;
+        margin:0;
+    }
+
+    .theme_pic_container{
+        width: 22.5vw;
+        margin: 0 2vw;
+        padding: 0;
+        display: inline-block;
+    }
+
+    .theme_pic_container img{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .theme_description{
+        width: 55vw;
+        height: 36vw;
+        margin: 5vw 0;
+        padding: 0vw 0 0vw 2.25vw;
+        display: inline-block;
+        border-left: 3px solid black;
+        position:relative;
+    }
+
+    .theme_description p{
+        position:absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 90%;
+        padding: 0;
+        margin: 0 5%;
+        font-size: 20px;
+        line-height: 38px;
+        letter-spacing: 2px;
+        text-align: left;
+        font-family: 'Noto Sans JP', sans-serif;
+        font-weight: bold;
     }
 
     #subcontents{
