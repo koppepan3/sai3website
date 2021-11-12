@@ -188,7 +188,7 @@ body{
         letter-spacing: 1px;
         text-align: left;
         font-family: 'Noto Sans JP', sans-serif;
-        font-weight: bold;
+        font-weight: normal;
     }
 
     #subcontents{
@@ -649,7 +649,7 @@ body{
         letter-spacing: 2px;
         text-align: left;
         font-family: 'Noto Sans JP', sans-serif;
-        font-weight: bold;
+        font-weight: normal;
     }
 
     #subcontents{
@@ -792,7 +792,7 @@ body{
             letter-spacing: 1px;
             text-align: left;
             font-family: 'Noto Sans JP', sans-serif;
-            font-weight: bold;
+            font-weight: normal;
         }
     }
 
