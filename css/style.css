@@ -427,7 +427,7 @@ body{
         display: inline-block;
         position: absolute;
         top:0px;
-        right: 270px;
+        right: 300px;
     }
 
     .header_home::after {
@@ -448,17 +448,17 @@ body{
         transform: scale(1, 1);
     }
 
-    .header_article{
+    .header_contents{
         height: 80px;
         margin: 0;
         padding: 0;
         display: inline-block;
         position: absolute;
         top:0px;
-        right: 180px;
+        right: 200px;
     }
 
-    .header_article::after {
+    .header_contents::after {
         position: absolute;
         bottom: 0px;
         left: 0;
@@ -471,7 +471,34 @@ body{
         transition: transform .3s;
     }
 
-    .header_article:hover::after {
+    .header_contents:hover::after {
+        transform: scale(1, 1);
+    }
+    
+    .header_articles{
+        height: 80px;
+        margin: 0;
+        padding: 0;
+        display: inline-block;
+        position: absolute;
+        top:0px;
+        right: 100px;
+    }
+
+    .header_articles::after {
+        position: absolute;
+        bottom: 0px;
+        left: 0;
+        content: '';
+        width: 100%;
+        height: 1.2px;
+        background: #333;
+        transform: scale(0, 1);
+        transform-origin: center top;
+        transition: transform .3s;
+    }
+
+    .header_articles:hover::after {
         transform: scale(1, 1);
     }
     
@@ -482,7 +509,7 @@ body{
         display: inline-block;
         position: absolute;
         top:0px;
-        right: 90px;
+        right: 0px;
     }
 
     .header_about::after {
@@ -499,33 +526,6 @@ body{
     }
 
     .header_about:hover::after {
-        transform: scale(1, 1);
-    }
-    
-    .header_links{
-        height: 80px;
-        margin: 0;
-        padding: 0;
-        display: inline-block;
-        position: absolute;
-        top:0px;
-        right: 0px;
-    }
-
-    .header_links::after {
-        position: absolute;
-        bottom: 0px;
-        left: 0;
-        content: '';
-        width: 100%;
-        height: 1.2px;
-        background: #333;
-        transform: scale(0, 1);
-        transform-origin: center top;
-        transition: transform .3s;
-    }
-
-    .header_links:hover::after {
         transform: scale(1, 1);
     }
     
@@ -570,7 +570,7 @@ body{
     #subtitle{
         padding:0;
         margin: 0;
-        height: 5vw;
+        height: 60px;
     }
 
     #subcontents{
