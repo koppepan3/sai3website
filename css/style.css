@@ -445,7 +445,6 @@ body{
         font-size: 16px;
         padding:0;
         line-height: 80px;
-        width: 90px;
         letter-spacing: 1.5px;
     }
 
@@ -454,7 +453,10 @@ body{
         color:black;
     }
 
+    .header
+
     .header_home{
+        width: 90px;
         height: 80px;
         margin: 0;
         padding: 0;
@@ -483,6 +485,7 @@ body{
     }
 
     .header_contents{
+        width: 98px;
         height: 80px;
         margin: 0;
         padding: 0;
@@ -510,6 +513,7 @@ body{
     }
     
     .header_articles{
+        width: 109px;
         height: 80px;
         margin: 0;
         padding: 0;
@@ -537,6 +541,7 @@ body{
     }
     
     .header_about{
+        width: 93px;
         height: 80px;
         margin: 0;
         padding: 0;
