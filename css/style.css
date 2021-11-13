@@ -143,10 +143,71 @@ body{
     }
 
     .notice{
-        margin: 0;
+        margin: 30px 0 0 0;
         padding: 0;
         width: 100%;
         text-align: center;
+    }
+
+    .notification_area{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        text-align: left;
+    }
+
+    #notifications{
+        width: 100%;
+        text-align: left;
+        margin: 10px 0;
+    }
+
+    #notifications_title{
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    #notifications p{
+        letter-spacing: 0.6px;
+        text-align: left;
+        font-family: 'Noto Sans JP', sans-serif;
+        font-weight: normal;
+        display: inline-block;
+    }
+
+    #notification_date{
+        font-size: 15px;
+        line-height: 15px;
+        padding:0;
+        margin: 0;
+    }
+
+    #notification_style{
+        font-size: 15px;
+        line-height: 15px;
+        margin: 0 3vw;
+        padding: 2px;
+        border-radius: 3px;
+        border:none;
+        color: white;
+    }
+
+    .notification_important{
+        background-color:#F99FBA;
+    }
+
+    .notification_update{
+        background-color:#8CB5D8;
+    }
+
+    #notification_text{
+        padding: 0;
+        margin: 3px 0;
+        text-align: left;
+        font-size: 17px;
+        line-height: 17px;
     }
 
     #subtitle{
@@ -600,7 +661,7 @@ body{
     
     #subtitle{
         padding:0;
-        margin: 0 ;
+        margin: 30px 0 ;
         height: 60px;
     }
 
@@ -640,17 +701,17 @@ body{
     #notification_style{
         margin: 0 3vw;
         padding: 5px 6px;
-    }
-
-    .notification_important{
-        background-color:#F99FBA;
         border-radius: 4px;
         border:none;
         color: white;
     }
 
-    #notification_text{
+    .notification_important{
+        background-color:#F99FBA;
+    }
 
+    .notification_update{
+        background-color:#8CB5D8;
     }
 
     .theme_container{
@@ -700,7 +761,7 @@ body{
     #subcontents{
         text-align: center;
         width: 100%;
-        margin: 0 ;
+        margin: 40px 0;
         padding: 0;
     }
 
@@ -731,7 +792,7 @@ body{
     }
 
     .slider_contrainer{
-        margin: 30px  0;
+        margin:0;
         padding: 0;
         width: 100%;
     }
