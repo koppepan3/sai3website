@@ -618,8 +618,8 @@ body{
     }
 
     #notifications p{
-        font-size: 1.4vw;
-        line-height: 1.4vw;
+        font-size: 16px;
+        line-height: 16px;
         letter-spacing: 1px;
         text-align: left;
         font-family: 'Noto Sans JP', sans-serif;
