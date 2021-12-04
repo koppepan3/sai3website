@@ -213,20 +213,12 @@ body{
         
     }
 
-    .notification_important{
-        background-color:#F99FBA;
-    }
-
-    .notification_update{
-        background-color:#8CB5D8;
-    }
-
     #notification_text{
         padding: 0;
         margin: 0 2.5%;
         text-align: left;
-        font-size: 4vw;
-        line-height: 4vw;
+        font-size: 4.6vw;
+        line-height: 4.6vw;
         display: inline-block;
         font-weight: bold !important;
     }
