@@ -176,7 +176,7 @@ body{
         margin: 0 2.5%;
         height: 5vw;
         width: 95%;
-        padding: 0;
+        padding: 10px 0 0;
         display: inline-block;
         line-height: 5vw;
     }
@@ -195,30 +195,30 @@ body{
     }
 
     #notification_style{
-        font-size: 3.5vw;
+        font-size: 14px;
         padding: 0;
         margin: 0 0;
         display: inline-block;
-        line-height: 3.5vw;
-        height: 3.5vw;
+        line-height: 14px;
+        height: 14px;
     }
 
     #notification_date{
-        font-size: 2.5vw;
+        font-size: 10px;
         padding: 0;
         margin: 0 0;
         display: inline-block;
-        line-height: 2.5vw;
-        height: 2.5vw;
+        line-height: 10px;
+        height: 10px;
         
     }
-
+ 
     #notification_text{
         padding: 0;
         margin: 1.8vw 2.5%;
         text-align: left;
-        font-size: 4.6vw;
-        line-height: 4.6vw;
+        font-size: 16px;
+        line-height: 16px;
         display: inline-block;
         font-weight: bold !important;
     }
