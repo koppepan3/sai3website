@@ -706,6 +706,13 @@ body{
         margin: 20px 3vw;
         padding: 0;
         border-bottom: 0.5px solid rgb(151, 151, 151);
+        transition: all 0.7s;
+        background-color: white;
+    }
+
+    #notifications:hover{
+        background-color: #E7E7E7;
+        transform: translateY(-10px);
     }
 
     #notifications p{
