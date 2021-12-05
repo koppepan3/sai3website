@@ -703,7 +703,7 @@ body{
         width: 30vw;
         height: 140px;
         text-align: left;
-        margin: 50px 3vw;
+        margin: 20px 3vw;
         padding: 0;
         border-bottom: 0.5px solid rgb(151, 151, 151);
     }
@@ -724,32 +724,32 @@ body{
     }
 
     #pink_dot{
-        width: 24px;
-        height: 24px;
+        width: 16px;
+        height: 16px;
         padding: 0;
         margin: 0;
         border: none;
-        border-radius: 12px;
+        border-radius: 8px;
         background-color: #FF6B60;
         display: inline-block;
-        line-height: 24px;
+        line-height: 16px;
     }
 
     #purple_dot{
-        width: 24px;
-        height: 24px;
+        width: 16px;
+        height: 16px;
         padding: 0;
         margin: 0;
         border: none;
-        border-radius: 12px;
+        border-radius: 8px;
         background-color: #185F8D;
         display: inline-block;
-        line-height: 24px;
+        line-height: 16px;
     }
 
     #notification_style{
-        font-size: 20px;
-        line-height: 26px;
+        font-size: 16px;
+        line-height: 16px;
     }
 
     #notification_date{
@@ -762,8 +762,8 @@ body{
         padding: 0;
         margin: 22px 2.5%;
         text-align: left;
-        font-size: 24px;
-        line-height: 24px;
+        font-size: 18px;
+        line-height: 18px;
         display: inline-block;
         font-weight: bold !important;
     }
@@ -1047,6 +1047,5 @@ body{
         font-weight: lighter;
         padding: 0.2vw 0;
     }
-
 
 }
