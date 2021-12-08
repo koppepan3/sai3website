@@ -22,5 +22,70 @@ a:active{
     .body_content{
         margin: 80px auto 0;
         width: 620px;
+        padding-top: 100px;
+        padding-bottom: 40px;
+    }
+
+    .article_title h1{
+        font-family: 'Noto Sans JP', sans-serif;
+        font-weight: 700;
+        letter-spacing: 0.9px;
+        font-size: 34px;
+    }
+
+    .icon{
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width:54px;
+        height: 54px;
+        border-radius: 27px;
+        border:none;
+        margin: 0;
+        display: inline-block;
+    }
+
+    .name{
+        position: absolute;
+        top: 1px;
+        left: 64px;
+        font-size: 16px;
+        padding: 0;
+        margin: 0;
+        font-weight: 700;
+        letter-spacing: 0.9px;
+    }
+
+    .date{
+        position: absolute;
+        top: 25px;
+        left: 64px;
+        font-size: 14px;
+        padding: 0;
+        margin: 0;
+        font-weight: 400;
+        letter-spacing: 0.2px;
+    }
+
+    .description_container{
+        padding: 0;
+        margin: 0;
+        height: 90px;
+        width: 620px;
+        display: inline-block;
+        position: relative;
+        border-bottom: 2.2px solid black;
+    }
+
+    .description_container h2{
+        font-family: 'Noto Sans JP', sans-serif;
+    }
+
+    .text p{
+        color: black;
+        font-family: "游ゴシック","Noto Sans JP", sans-serif;
+        font-size: 16px;
+        letter-spacing: 0.96px;
+        line-height: 32px;
     }
 }
