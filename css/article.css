@@ -19,8 +19,16 @@ a:active{
 
 @media only screen and (max-width: 600px) {}
 @media only screen and (min-width: 600px) {
+    .top_pics{
+        width: 100vw;
+        margin: 0;
+        padding: 0;
+        height: 30vw;
+        object-fit: cover;
+    }
+
     .body_content{
-        margin: 80px auto 0;
+        margin:  0 auto;
         width: 620px;
         padding-top: 100px;
         padding-bottom: 40px;
@@ -84,6 +92,7 @@ a:active{
     .text p{
         color: black;
         font-family: "游ゴシック","Noto Sans JP", sans-serif;
+        font-weight: 500;
         font-size: 16px;
         letter-spacing: 0.96px;
         line-height: 32px;
