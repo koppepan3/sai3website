@@ -26,10 +26,12 @@ a:active{
     }
 
     .body_content{
-        margin:  0 5%;
-        width: 90%;
+        margin:  0 7.5%;
+        width: 85%;
         padding-top: 4px;
         padding-bottom: 40px;
+        padding-left: 0;
+        padding-right: 0;
     }
 
     .article_title h1{
