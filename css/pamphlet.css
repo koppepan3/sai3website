@@ -20,9 +20,11 @@ a:active{
 
 @media only screen and (max-width: 600px) {
     .top_pics{
-        width: 100vw;
+        width: 130%;
         margin: 62px 0 0;
+        margin-left: -15%;
         padding: 0;
+        object-fit: cover;
     }
 
 }

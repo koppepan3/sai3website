@@ -34,13 +34,6 @@ a:active{
         padding-right: 0;
     }
 
-    .article_title h1{
-        font-family: 'Noto Sans JP', sans-serif;
-        font-weight: 700;
-        letter-spacing: 0.9px;
-        font-size: 24px;
-    }
-
     .icon{
         position: absolute;
         top: 0px;
@@ -116,12 +109,6 @@ a:active{
         padding-bottom: 40px;
     }
 
-    .article_title h1{
-        font-family: 'Noto Sans JP', sans-serif;
-        font-weight: 700;
-        letter-spacing: 0.9px;
-        font-size: 34px;
-    }
 
     .icon{
         position: absolute;
@@ -173,7 +160,7 @@ a:active{
 
     .text p{
         color: black;
-        font-family: "游ゴシックMEDIUM","Noto Sans JP", sans-serif;
+        font-family:"Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体"
         font-weight: 500;
         font-size: 16px;
         letter-spacing: 0.96px;
