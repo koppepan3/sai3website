@@ -29,10 +29,8 @@ a:active{
     .body_content{
         margin:  0 7.5%;
         width: 85%;
-        padding-top: 4px;
-        padding-bottom: 40px;
-        padding-left: 0;
-        padding-right: 0;
+        padding: 4px 0 40px 0;
+        border-bottom: 1px solid black;
     }
 
     .icon{
@@ -90,6 +88,175 @@ a:active{
         font-size: 14px;
         line-height: 32px;
         letter-spacing: 0.96px;
+    }
+
+    .slider_contrainer{
+        width: 100%;
+        margin: 50px auto 0;
+        padding: 0;
+    }
+
+    .slider_contrainer ul{
+        margin:0;
+        padding: 0;
+        list-style: none;
+    }
+      
+    /*==================================================
+    スライダーのためのcss
+    ===================================*/
+    .slider {
+        height: 95%;
+        margin:0 auto;
+    }
+    
+    .slider img {
+        width:100%;/*スライダー内の画像を横幅100%に*/
+        height:auto;
+    }
+    
+    /*slickのJSで書かれるタグ内、スライド左右の余白調整*/
+    .slider .slick-slide {
+        margin:0 40px;
+    }
+    
+    /*矢印の設定*/
+
+    /*戻る、次へ矢印の位置*/
+    .slick-prev, 
+    .slick-next {
+        position: absolute;/*絶対配置にする*/
+        top: 40%;
+        cursor: pointer;/*マウスカーソルを指マークに*/
+        outline: none;/*クリックをしたら出てくる枠線を消す*/
+        border-top: 3px solid rgb(53, 53, 53);/*矢印の色*/
+        border-right: 3px solid rgb(53, 53, 53);/*矢印の色*/
+        height: 20px;
+        width: 20px;
+        display: none !important;
+    }
+    
+    .slick-prev {/*戻る矢印の位置と形状*/
+        left: 0%;
+        transform: rotate(-135deg);
+    }
+    .slick-next {/*次へ矢印の位置と形状*/
+        right: 0%;
+        transform: rotate(45deg);
+    }
+    
+    /*ドットナビゲーションの設定*/
+    .slick-dots {
+        text-align:center;
+        margin:20px 0 0 0;
+    }
+    .slick-dots li {
+        display:inline-block;
+        margin:20px 5px;
+    }
+    .slick-dots button {
+        color: transparent;
+        outline: none;
+        width:5px;
+        height:5px;
+        display:block;
+        border-radius:50%;
+        background:rgb(231, 230, 230);/*ドットボタンの色*/
+        padding: 5px;
+        border: none;
+    }
+    .slick-dots .slick-active button{
+        background:#333;/*ドットボタンの現在地表示の色*/
+    }
+
+    .shinchaku{
+        width: 90%;
+        margin: 50px 5%;
+        text-align: center;
+        position: relative;
+    }
+
+    .shinchaku_logo{
+        margin-top: 30px;
+        width: 40%;
+
+    }
+
+    .articles_home_link{
+        position:absolute;
+        top: 100px;
+        right: 0px;
+        margin-bottom: 50px;
+        font-size: 15px;
+        font-family: 'Noto Sans JP', sans-serif;
+        font-weight: 500;
+    }
+
+    .flex-container{
+        margin: 40px 0;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #flex-contents{
+        width: 82%;
+        margin: 25px 0;
+        padding-bottom: 15px;
+        position: relative;
+        border-bottom: 1px solid #A5A5A5;
+        text-align: left;
+    }
+
+    #post_date{
+        font-size: 10px;
+        line-height: 22px;
+        letter-spacing: 1px;
+        text-align: left;
+        font-family: 'Noto Sans JP', sans-serif;
+        font-weight: 500;
+        margin-left: 14px;
+        color: #909090;
+    }
+
+    #flex-contents:hover{
+        opacity: 0.5;
+    }
+
+    #flex-contents img{
+        width: 40%;
+        padding: 0;
+        margin: 0;
+        display: inline-block;
+    }
+
+    #flex-contents h2{
+        font-size: 16px;
+        text-align: left;
+        padding: 0;
+        margin:0;
+        font-family: 'Noto Sans JP', sans-serif;
+        font-weight: 500;
+    }
+
+    #flex-contents h1{
+        font-size: 20px;
+        text-align: left;
+        padding: 0;
+        margin:  10px 0;
+        font-family: 'Noto Sans JP', sans-serif;
+        font-weight: 600;
+    }
+
+    #post_description{
+        margin: 0;
+        padding: 3px 0;
+        width: 50%;
+        position: absolute;
+        top: 0%;
+        left: 45%;
+        text-align: left;
     }
 }
 
