@@ -592,19 +592,88 @@
         background:#333;/*ドットボタンの現在地表示の色*/
     }
 
+    .article_link_container{
+        width: 100%;
+        position:relative;
+    }
+
+    .articles_home_link{
+        position: absolute;
+        top: 0%;
+        right: 5%;
+        margin-bottom: 50px;
+        font-size: 20px;
+        font-family: 'Noto Sans JP', sans-serif;
+        font-weight: 500;
+    }
+
     .flex-container{
+        margin: 50px 0;
         width: 100%;
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-between;
+        justify-content: center;
     }
 
     #flex-contents{
-        width: 30%;
-        margin: 1.6%;
+        width: 38%;
+        margin: 10px 4%;
+        padding-bottom: 15px;
+        position: relative;
         text-align: left;
+        transition: all 0.7s;
         opacity: 1;
-        transition: all 0.5s;
+    }
+
+    #flex-contents:hover{
+        opacity: 0.7;
+        transform: translateY(-10px);
+    }
+
+    #post_date {
+        font-size: 14px;
+        line-height: 22px;
+        letter-spacing: 1px;
+        text-align: left;
+        font-family: 'Noto Sans JP', sans-serif;
+        font-weight: 500;
+        margin-left: 14px;
+        color: #909090;
+    }
+
+    #flex-contents img{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        display: inline-block;
+    }
+
+    #flex-contents h2 {
+        font-size: 18px;
+        text-align: left;
+        padding: 0;
+        margin: 0;
+        font-family: 'Noto Sans JP', sans-serif;
+        font-weight: 600;
+        letter-spacing: 1.7px;
+        color: #4c4c4c;
+    }
+
+    #flex-contents h1 {
+        font-size: 24px;
+        text-align: left;
+        padding: 0;
+        margin: 10px 0;
+        font-family: 'Noto Sans JP', sans-serif;
+        font-weight: 600;
+        letter-spacing: 1.5px;
+    }
+
+    #post_description {
+        margin: 0;
+        padding: 25px 4px;
+        width: 100%;
+        text-align: left;
     }
 
     @media only screen and (max-width: 1000px) {
@@ -621,34 +690,5 @@
             font-family: 'Noto Sans JP', sans-serif;
             font-weight: normal;
         }
-    }
-
-    #flex-contents:hover{
-        opacity: 0.5;
-    }
-
-    #flex-contents img{
-        width: 100%;
-        padding: 0;
-        margin: 0;
-    }
-
-    #flex-contents p{
-        font-size: 12px;
-        text-align: left;
-        padding: 0;
-        margin: 4px 0;
-        font-family: 'Noto Sans JP', sans-serif;
-        font-weight: bolder;
-        letter-spacing: 0.6px;
-    }
-
-    #flex-contents h2{
-        font-size: 24px;
-        text-align: left;
-        padding: 0;
-        margin: 10px 0;
-        font-family: 'Noto Sans JP', sans-serif;
-        font-weight: 600;
     }
 }
