@@ -54,6 +54,21 @@ a:active{
         border: none;
     }
 
+    .googleMapsLink{
+        width: 90%;
+        padding:5px 0;
+        margin: 2px 5% 10px;
+        font-family: 'Noto Sans JP', sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 16px;
+        background-color: white;
+        color: black;
+        border: 2.5px solid black;
+        border-radius: 4px;
+        transition: all 0.6s;
+    }
+
     .addressAndaccess{
         color: black;
         font-family: 'Noto Sans JP', sans-serif;
@@ -112,7 +127,7 @@ a:active{
         padding-bottom: 50px;
     }
 
-    .aboutsai3{
+    .shozaichi{
         height: 70px;
         margin: 0;
         padding: 0;
@@ -126,7 +141,26 @@ a:active{
         border-radius: 4px;
     }
 
-    .aboutsai3_text{
+    .googleMapsLink{
+        width: 495px;
+        height: 70px;
+        font-family: 'Noto Sans JP', sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 20px;
+        background-color: white;
+        color: black;
+        border: 3px solid black;
+        border-radius: 8px;
+        transition: all 0.6s;
+
+    }
+
+    .googleMapsLink:hover{
+        background-color: rgb(243, 243, 243);
+    }
+
+    .addressAndaccess{
         color: black;
         font-family:"Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体";
         font-weight: 700;
@@ -136,20 +170,21 @@ a:active{
         line-height: 38px;
     }
 
-    .aisatsu{
+    .onegai{
         height: 70px;
         margin: 40px 0;
         padding: 0;
     }
 
-    .aisatsu_text{
-        color: black;
+    .onegai_text{
+        color: #FF6B60;
         font-family:"Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体";
         font-weight: 700;
         font-style: normal;
         font-size: 18px;
         letter-spacing: 0.07em;
-        line-height: 38px;
+        line-height: 40.8px;
+        padding-left: 15px;
     }
 
 }
