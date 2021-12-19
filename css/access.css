@@ -283,242 +283,51 @@ a:active{
 
     .body_content{
         margin:  0 auto;
-        width: 620px;
+        width: 70%;
+        max-width: 1240px;
         padding-top: 90px;
         padding-bottom: 50px;
-        border-bottom: 2px solid black;
     }
 
-
-    .icon{
-        position: absolute;
-        top: 0px;
-        left: 0px;
-        width:54px;
-        height: 54px;
-        border-radius: 27px;
-        border:none;
+    .shozaichi{
+        height: 70px;
         margin: 0;
-        display: inline-block;
-    }
-
-    .name{
-        position: absolute;
-        top: 1px;
-        left: 64px;
-        font-size: 16px;
         padding: 0;
-        margin: 0;
-        font-weight: 700;
-        letter-spacing: 0.9px;
     }
 
-    .date{
-        position: absolute;
-        top: 25px;
-        left: 64px;
-        font-size: 14px;
-        padding: 0;
-        margin: 0;
-        font-weight: 400;
-        letter-spacing: 0.2px;
+    .embed_map{
+        width: 80%;
+        height: 30vw;
+        margin: 30px 10%;
+        border: 2px solid black;
+        border-radius: 4px;
     }
 
-    .description_container{
-        padding: 0;
-        margin: 0;
-        height: 90px;
-        width: 620px;
-        display: inline-block;
-        position: relative;
-        border-bottom: 2.2px solid black;
-    }
-
-    .description_container h2{
-        font-family: 'Noto Sans JP', sans-serif;
-    }
-
-    .text p{
+    .addressAndaccess{
         color: black;
         font-family:"Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体";
         font-weight: 500;
-        font-size: 16px;
-        letter-spacing: 0.96px;
-        line-height: 32px;
-    }
-
-    .slider_contrainer{
-        height: 100%;
-        width: 600px;
-        margin: 50px auto 0;
-        padding: 0;
-    }
-
-    .slider_contrainer ul{
-        margin:0;
-        padding: 0;
-        list-style: none;
-    }
-      
-    /*==================================================
-    スライダーのためのcss
-    ===================================*/
-    .slider {
-        height: 95%;
-        margin:0 auto;
-    }
-    
-    .slider img {
-        width:100%;/*スライダー内の画像を横幅100%に*/
-        height:auto;
-    }
-    
-    /*slickのJSで書かれるタグ内、スライド左右の余白調整*/
-    .slider .slick-slide {
-        margin:0 40px;
-    }
-    
-    /*矢印の設定*/
-
-    /*戻る、次へ矢印の位置*/
-    .slick-prev, 
-    .slick-next {
-        position: absolute;/*絶対配置にする*/
-        top: 40%;
-        cursor: pointer;/*マウスカーソルを指マークに*/
-        outline: none;/*クリックをしたら出てくる枠線を消す*/
-        border-top: 3px solid rgb(53, 53, 53);/*矢印の色*/
-        border-right: 3px solid rgb(53, 53, 53);/*矢印の色*/
-        height: 20px;
-        width: 20px;
-    }
-    
-    .slick-prev {/*戻る矢印の位置と形状*/
-        left: 0%;
-        transform: rotate(-135deg);
-    }
-    .slick-next {/*次へ矢印の位置と形状*/
-        right: 0%;
-        transform: rotate(45deg);
-    }
-    
-    /*ドットナビゲーションの設定*/
-    .slick-dots {
-        text-align:center;
-        margin:20px 0 0 0;
-    }
-    .slick-dots li {
-        display:inline-block;
-        margin:20px 5px;
-    }
-    .slick-dots button {
-        color: transparent;
-        outline: none;
-        width:5px;
-        height:5px;
-        display:block;
-        border-radius:50%;
-        background:rgb(231, 230, 230);/*ドットボタンの色*/
-        padding: 5px;
-        border: none;
-    }
-    .slick-dots .slick-active button{
-        background:#333;/*ドットボタンの現在地表示の色*/
-    }
-
-    .shinchaku{
-        width: 90%;
-        margin: 50px 5%;
-        text-align: center;
-        position: relative;
-    }
-
-    .shinchaku_logo{
-        margin-top: 40px;
-        width: 190px;
-
-    }
-
-    .articles_home_link{
-        position:absolute;
-        top: 100px;
-        right: 0px;
-        margin-bottom: 50px;
-        font-size: 20px;
-        font-family: 'Noto Sans JP', sans-serif;
-        font-weight: 500;
-    }
-
-    .flex-container{
-        margin: 50px 0;
-        width: 100%;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
-    #flex-contents{
-        width: 35%;
-        margin: 25px 2.5%;
-        padding-bottom: 15px;
-        position: relative;
-        border-bottom: 1px solid #A5A5A5;
-        text-align: left;
-        transition: all 0.7s;
-        opacity: 1;
-    }
-
-    #flex-contents:hover{
-        opacity: 0.7;
-        transform: translateY(-10px);
-    }
-
-    #post_date {
-        font-size: 14px;
-        line-height: 22px;
-        letter-spacing: 1px;
-        text-align: left;
-        font-family: 'Noto Sans JP', sans-serif;
-        font-weight: 500;
-        margin-left: 14px;
-        color: #909090;
-    }
-
-    #flex-contents img{
-        width: 40%;
-        padding: 0;
-        margin: 0;
-        display: inline-block;
-    }
-
-    #flex-contents h2 {
-        font-size: 18px;
-        text-align: left;
-        padding: 0;
-        margin: 0;
-        font-family: 'Noto Sans JP', sans-serif;
-        font-weight: 600;
-        letter-spacing: 1.7px;
-        color: #404040;
-    }
-
-    #flex-contents h1 {
+        font-style: normal;
         font-size: 24px;
-        text-align: left;
-        padding: 0;
-        margin: 10px 0;
-        font-family: 'Noto Sans JP', sans-serif;
-        font-weight: 600;
-        letter-spacing: 1.5px;
+        letter-spacing: 0.07em;
+        line-height: 38px;
     }
 
-    #post_description {
-        margin: 0;
-        padding: 3px 0;
-        width: 50%;
-        position: absolute;
-        top: 0%;
-        left: 45%;
-        text-align: left;
+    .onegai{
+        height: 70px;
+        margin: 40px 0;
+        padding: 0;
     }
+
+    .onegai_text{
+        color: #FF6B60;
+        font-family:"Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体";
+        font-weight: 700;
+        font-style: normal;
+        font-size: 24px;
+        letter-spacing: 0.07em;
+        line-height: 40.8px;
+        padding-left: 15px;
+    }
+
 }
