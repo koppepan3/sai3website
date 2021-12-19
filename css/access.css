@@ -36,29 +36,28 @@ a:active{
     }
 
     .body_content{
-        margin:  0 7.5%;
-        width: 85%;
+        margin:  0 0;
+        width: 100%;
         padding: 4px 0 40px 0;
     }
 
     .shozaichi{
         height:12vw ;
-        margin: 10px 0;
+        margin: 5px 5%;
         padding: 0;
     }
 
     .embed_map{
-        display: none;
+        width: 100vw;
+        height: 45vw;
+        margin: 2px 0;
+        border: none;
     }
 
     .googleMapsLink{
-        display: none;
-    }
-
-    .googleMapsLinkMobile{
-        width: 100%;
+        width: 90%;
         padding:5px 0;
-        margin: 2px 0 10px;
+        margin: 2px 5% 10px;
         font-family: 'Noto Sans JP', sans-serif;
         font-weight: 700;
         font-style: normal;
@@ -68,7 +67,6 @@ a:active{
         border: 2.5px solid black;
         border-radius: 4px;
         transition: all 0.6s;
-
     }
 
     .addressAndaccess{
@@ -79,18 +77,18 @@ a:active{
         font-size: 12px;
         letter-spacing: 0.07em;
         line-height: 24px;
-        padding: 0;
+        padding: 0 5%;
         margin: 0 0 7px;
     }
 
     .onegai{
         height:12vw ;
-        margin: 10px 0;
+        margin: 5px 5%;
         padding: 0;
     }
 
     .onegai_text{
-        padding: 0;
+        padding: 0 5%;
         margin: 5px 0;
         color: #FF6B60;
         font-family: 'Noto Sans JP', sans-serif;
@@ -160,10 +158,6 @@ a:active{
 
     .googleMapsLink:hover{
         background-color: rgb(243, 243, 243);
-    }
-
-    .googleMapsLinkMobile{
-        display: none;
     }
 
     .addressAndaccess{
