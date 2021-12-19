@@ -303,6 +303,25 @@ a:active{
         border-radius: 4px;
     }
 
+    .googleMapsLink{
+        width: 495px;
+        height: 70px;
+        font-family: 'Noto Sans JP', sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 20px;
+        background-color: white;
+        color: black;
+        border: 3px solid black;
+        border-radius: 8px;
+        transition: all 0.6s;
+
+    }
+
+    .googleMapsLink:hover{
+        background-color: rgb(243, 243, 243);
+    }
+
     .addressAndaccess{
         color: black;
         font-family:"Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体";
