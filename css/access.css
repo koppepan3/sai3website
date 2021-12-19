@@ -306,9 +306,9 @@ a:active{
     .addressAndaccess{
         color: black;
         font-family:"Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体";
-        font-weight: 500;
+        font-weight: 700;
         font-style: normal;
-        font-size: 24px;
+        font-size: 18px;
         letter-spacing: 0.07em;
         line-height: 38px;
     }
@@ -324,7 +324,7 @@ a:active{
         font-family:"Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体";
         font-weight: 700;
         font-style: normal;
-        font-size: 24px;
+        font-size: 18px;
         letter-spacing: 0.07em;
         line-height: 40.8px;
         padding-left: 15px;
