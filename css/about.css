@@ -36,53 +36,92 @@ a:active{
     }
 
     .body_content{
-        margin:  0 0;
-        width: 100%;
-        padding: 4px 0 40px 0;
+        margin:  0 auto;
+        width: 90%;
+        padding-top: 20px;
+        padding-bottom: 50px;
     }
 
-    .shozaichi{
-        height:12vw ;
-        margin: 5px 5%;
+    .aboutsai3{
+        height: 12vw;
+        margin: 0;
         padding: 0;
     }
 
-    .embed_map{
-        width: 100vw;
-        height: 45vw;
-        margin: 2px 0;
-        border: none;
-    }
-
-    .addressAndaccess{
+    .aboutsai3_text{
         color: black;
-        font-family: 'Noto Sans JP', sans-serif;
-        font-weight: 700;
+        font-family:'Noto Sans JP',sans-serif;
+        font-weight: 500;
         font-style: normal;
-        font-size: 12px;
-        letter-spacing: 0.07em;
-        line-height: 24px;
-        padding: 0 5%;
-        margin: 0 0 7px;
+        font-size: 16px;
+        letter-spacing: 0.06em;
+        line-height: 32px;
     }
 
-    .onegai{
-        height:12vw ;
-        margin: 5px 5%;
+    .aisatsu{
+        height: 12vw;
+        margin: 40px 0 0 0;
         padding: 0;
     }
 
-    .onegai_text{
-        padding: 0 5%;
-        margin: 5px 0;
-        color: #FF6B60;
-        font-family: 'Noto Sans JP', sans-serif;
+    .aisatsu_text{
+        color: black;
+        font-family:'Noto Sans JP',sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 16px;
+        letter-spacing: 0.06em;
+        line-height: 32px;
+    }
+
+    .principle{
+        width: 100%;
+        height: 30vw;
+        margin: 20px 0;
+        padding: 0;
+        position: relative;
+        text-align: right;
+    }
+
+    .principle img{
+        height: 30vw;
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        top: 0%;
+        right: 0%;
+    }
+
+    .principle_name{
+        position: absolute;
+        bottom: 0%;
+        right:21vw;
+        padding-right: 15px;
+        margin: 0;
+        padding-bottom: 0;
+    }
+
+    .principle_name h2{
+        font-family:"Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", 'Noto Sans JP';
+        font-weight: 500;
+        font-style: normal;
+        font-size: 16px;
+        letter-spacing: 0.07em;
+        line-height: 20px;
+        margin: 8px 0;
+    }
+
+    .principle_name h1{
+        color: black;
+        font-family:'Noto Sans JP',sans-serif;
         font-weight: 700;
         font-style: normal;
-        font-size: 14px;
-        letter-spacing: 0.08em;
-        line-height: 27px;
+        font-size: 26px;
+        letter-spacing: 0.06em;
+        line-height: 26px;
+        margin: 2px 0;
     }
+
 
 }
 
@@ -116,14 +155,6 @@ a:active{
         height: 70px;
         margin: 0;
         padding: 0;
-    }
-
-    .embed_map{
-        width: 100%;
-        height: 30vw;
-        margin: 30px 0;
-        border: 2px solid black;
-        border-radius: 4px;
     }
 
     .aboutsai3_text{
