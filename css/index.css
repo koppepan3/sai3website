@@ -420,8 +420,7 @@
     #notifications p{
         letter-spacing: 0.6px;
         text-align: left;
-        font-family:"Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体";
-        font-weight: normal;
+        font-family:"Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体",'Noto Sans JP';
     }
 
     #notifications_title{
@@ -459,11 +458,15 @@
     #notification_style{
         font-size: 16px;
         line-height: 16px;
+        font-weight: 700;
+        font-style: normal;
     }
 
     #notification_date{
         font-size: 12px;
         line-height: 12px;
+        font-weight: 700;
+        font-style: normal;
         color: rgb(82, 82, 82);
     }
  
@@ -550,7 +553,7 @@
 
     .slider_contrainer p{
         text-align: center;
-        font-family:"Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体";
+        font-family:"Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体",'Noto Sans JP';
         font-size: 24px;
         font-weight: 600;
         letter-spacing: 0.07em;
@@ -647,7 +650,7 @@
         right: 5%;
         margin-bottom: 50px;
         font-size: 20px;
-        font-family:"Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体";
+        font-family:"Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体",'Noto Sans JP';
         font-weight: 500;
     }
 
@@ -679,7 +682,7 @@
         line-height: 22px;
         letter-spacing: 1px;
         text-align: left;
-        font-family:"Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体";
+        font-family:"Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体",'Noto Sans JP';
         font-weight: 500;
         margin-left: 14px;
         color: #909090;
@@ -697,7 +700,7 @@
         text-align: left;
         padding: 0;
         margin: 0;
-        font-family:"Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体";
+        font-family:"Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体",'Noto Sans JP';
         font-weight: 600;
         letter-spacing: 1.7px;
         color: #4c4c4c;
@@ -708,7 +711,7 @@
         text-align: left;
         padding: 0;
         margin: 10px 0;
-        font-family:"Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体";
+        font-family:"Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体",'Noto Sans JP';
         font-weight: 600;
         letter-spacing: 1.5px;
     }
@@ -731,7 +734,7 @@
             line-height: 22px;
             letter-spacing: 1px;
             text-align: left;
-            font-family:"Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体";
+            font-family:"Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体",'Noto Sans JP';
             font-weight: normal;
         }
     }

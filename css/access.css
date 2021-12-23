@@ -145,7 +145,7 @@ a:active{
     .googleMapsLink{
         width: 495px;
         height: 70px;
-        font-family:"Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体";
+        font-family:"Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体",'Noto Sans JP';
         font-weight: 700;
         font-style: normal;
         font-size: 20px;
@@ -163,7 +163,7 @@ a:active{
 
     .addressAndaccess{
         color: black;
-        font-family:"Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体";
+        font-family:"Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体",'Noto Sans JP';
         font-weight: 700;
         font-style: normal;
         font-size: 18px;
@@ -179,7 +179,7 @@ a:active{
 
     .onegai_text{
         color: #FF6B60;
-        font-family:"Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体";
+        font-family:"Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体",'Noto Sans JP';
         font-weight: 700;
         font-style: normal;
         font-size: 18px;
