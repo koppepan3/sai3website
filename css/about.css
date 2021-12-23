@@ -50,12 +50,14 @@ a:active{
 
     .aboutsai3_text{
         color: black;
-        font-family:'Noto Sans JP',sans-serif;
-        font-weight: 500;
+        font-family: 'Noto Sans JP', sans-serif;
+        font-weight: 700;
         font-style: normal;
-        font-size: 16px;
-        letter-spacing: 0.06em;
-        line-height: 32px;
+        font-size: 12px;
+        letter-spacing: 0.07em;
+        line-height: 24px;
+        padding: 0 5%;
+        margin: 0 0 7px;
     }
 
     .aisatsu{
@@ -66,12 +68,14 @@ a:active{
 
     .aisatsu_text{
         color: black;
-        font-family:'Noto Sans JP',sans-serif;
-        font-weight: 500;
+        font-family: 'Noto Sans JP', sans-serif;
+        font-weight: 700;
         font-style: normal;
-        font-size: 16px;
-        letter-spacing: 0.06em;
-        line-height: 32px;
+        font-size: 12px;
+        letter-spacing: 0.07em;
+        line-height: 24px;
+        padding: 0 5%;
+        margin: 0 0 7px;
     }
 
     .principle{
