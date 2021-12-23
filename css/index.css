@@ -295,7 +295,7 @@
         position: relative;
         text-align: left;
     }
-    
+
     #post_date {
         margin-left: 1px;
         font-size: 13px;
@@ -545,9 +545,9 @@
     .slider_contrainer p{
         text-align: center;
         font-family: 'Noto Sans JP', sans-serif;
-        font-size: 1.7vw;
-        font-weight: bold;
-        letter-spacing: 0.1vw;
+        font-size: 24px;
+        font-weight: 600;
+        letter-spacing: 0.07em;
     }
 
     .slider_contrainer{
