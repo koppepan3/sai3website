@@ -297,6 +297,7 @@
     }
 
     #post_date {
+        padding-left: 6px;
         margin-left: 1px;
         font-size: 13px;
         line-height: 18px;
@@ -553,7 +554,7 @@
 
     .slider_contrainer p{
         text-align: center;
-        font-family:"Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体",'Noto Sans JP';
+        font-family:'Noto Sans JP',sans-serif;
         font-size: 24px;
         font-weight: 600;
         letter-spacing: 0.07em;
@@ -711,7 +712,7 @@
         text-align: left;
         padding: 0;
         margin: 10px 0;
-        font-family:"Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体",'Noto Sans JP';
+        font-family:'Noto Sans JP',sans-serif;
         font-weight: 600;
         letter-spacing: 1.5px;
     }
@@ -721,6 +722,10 @@
         padding: 25px 4px;
         width: 100%;
         text-align: left;
+    }
+
+    #post_classification{
+        padding-left: 8px;
     }
 
     @media only screen and (max-width: 1000px) {
