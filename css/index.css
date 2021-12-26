@@ -304,7 +304,7 @@
         text-align: left;
         font-family: 'Noto Sans JP', sans-serif;
         font-weight: 500;
-        margin-left: 8px;
+        margin-left: 5px;
         color: #909090;
     }
 
@@ -354,7 +354,14 @@
     }
 
     #post_classification{
-        display: none;
+        font-size: 13px;
+        text-align: left;
+        padding: 0 2px;
+        margin: 0;
+        font-family: 'Noto Sans JP', sans-serif;
+        font-weight: 600;
+        letter-spacing: 0.6px;
+        color: #404040;
     }
 }
 
