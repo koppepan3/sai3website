@@ -317,6 +317,8 @@
         padding: 0;
         margin: 0;
         display: inline-block;
+        border-radius: 5px;
+        border: 1px solid black;
     }
 
     #flex-contents h2 {
