@@ -1,0 +1,220 @@
+body{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    -webkit-text-size-adjust: 100%;
+}
+
+a{
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+a:hover,
+a:active{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+    .toppic_container{
+        width: 100%;
+        height: 50vw;
+        margin:0 0;
+        padding: 62px 0 0;
+    }
+    
+    .top_pics{
+        width: 100%;
+        height: 100%;
+        margin: 0 0;
+        padding: 0;
+        object-fit: cover;
+    }
+
+    .body_content{
+        margin:  0 auto;
+        width: 94%;
+        padding: 4px 0 40px 0;
+    }
+
+    .flex-container{
+        margin: 40px 0;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #flex-contents{
+        width: 90%;
+        margin: 20px 0;
+        padding-bottom: 10px;
+        position: relative;
+        border-bottom: 1px solid #A5A5A5;
+        text-align: left;
+    }
+
+    #post_date{
+        font-size: 8px;
+        line-height: 22px;
+        letter-spacing: 1px;
+        text-align: left;
+        font-family: 'Noto Sans JP', sans-serif;
+        font-weight: 500;
+        margin-left: 5px;
+        color: #909090;
+    }
+
+    #flex-contents:hover{
+        opacity: 0.5;
+    }
+
+    #flex-contents img{
+        width: 40%;
+        padding: 0;
+        margin: 0;
+        display: inline-block;
+        border-radius: 5px;
+        border: 1px solid black;
+    }
+
+    #flex-contents h2 {
+        font-size: 13px;
+        text-align: left;
+        padding: 0;
+        margin: 0;
+        font-family: 'Noto Sans JP', sans-serif;
+        font-weight: 600;
+        letter-spacing: 0.6px;
+        color: #404040;
+    }
+
+    #flex-contents h1 {
+        font-size: 15px;
+        text-align: left;
+        padding: 0;
+        margin: 6px 0;
+        font-family: 'Noto Sans JP', sans-serif;
+        font-weight: 600;
+        letter-spacing: 0.4px;
+    } 
+    
+
+    #post_description{
+        margin: 0;
+        padding: 1px 0;
+        width: 50%;
+        position: absolute;
+        top: 0%;
+        left: 45%;
+        text-align: left;
+    }
+
+    #post_classification{
+        font-size: 13px;
+        text-align: left;
+        padding: 0 2px;
+        margin: 0;
+        font-family: 'Noto Sans JP', sans-serif;
+        font-weight: 600;
+        letter-spacing: 0.6px;
+        color: #404040;
+    }
+
+}
+
+
+@media only screen and (min-width: 600px) {
+    .top_pics{
+        width: 100%;
+        margin:0;
+        padding: 80px 0 0;
+        height: 25vw;
+        object-fit: cover;
+    }
+
+    .body_content{
+        margin:  0 auto;
+        width: 80%;
+        max-width: 1440px;
+        padding-top: 90px;
+        padding-bottom: 50px;
+    }
+
+    .flex-container{
+        margin: 50px 0;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    #flex-contents{
+        width: 27%;
+        margin: 10px 2.5%;
+        padding-bottom: 15px;
+        position: relative;
+        text-align: left;
+        transition: all 0.7s;
+        opacity: 1;
+    }
+
+    #flex-contents:hover{
+        opacity: 0.7;
+        transform: translateY(-10px);
+    }
+
+    #post_date {
+        font-size: 14px;
+        line-height: 22px;
+        letter-spacing: 1px;
+        text-align: left;
+        font-family:"Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体",'Noto Sans JP';
+        font-weight: 500;
+        margin-left: 14px;
+        color: #909090;
+    }
+
+    #flex-contents img{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        display: inline-block;
+    }
+
+    #flex-contents h2 {
+        font-size: 18px;
+        text-align: left;
+        padding: 0;
+        margin: 0;
+        font-family:"Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体",'Noto Sans JP';
+        font-weight: 600;
+        letter-spacing: 1.7px;
+        color: #4c4c4c;
+    }
+
+    #flex-contents h1 {
+        font-size: 24px;
+        text-align: left;
+        padding: 0;
+        margin: 10px 0;
+        font-family:'Noto Sans JP',sans-serif;
+        font-weight: 600;
+        letter-spacing: 1.5px;
+    }
+
+    #post_description {
+        margin: 0;
+        padding: 25px 4px;
+        width: 100%;
+        text-align: left;
+    }
+
+    #post_classification{
+        padding-left: 0px;
+    }
+}
