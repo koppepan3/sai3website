@@ -17,7 +17,7 @@ a:hover,
 a:active{
     text-decoration: none;
     cursor: pointer;
-}
+} 
 
 @media only screen and (max-width: 600px) {
     .toppic_container{
@@ -163,7 +163,159 @@ a:active{
     
 }
 
-@media only screen and (min-width: 600px) {
+@media only  screen and (min-width:600px) and (max-width:1000px){
+    .toppic_container{
+        width: 100%;
+        height: 25vw;
+        margin:0 0;
+        padding: 0;
+        position: relative;
+    }
+
+    .top_pics{
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        object-fit: cover;
+    }
+
+    .body_content{
+        margin:  0 auto;
+        width: 90%;
+        max-width: 1440px;
+        padding-top: 40px;
+        padding-bottom: 50px;
+    }
+
+    .mokuji{
+        width: 420px;
+        height: 120px;
+        margin: 0 auto;
+        padding: 0;
+        text-align: center;
+    }
+
+    #grade{
+        width: 100px;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        display: inline-block;
+    }
+
+    #grade h2{
+        text-align: center;
+        font-size: 17px;
+        padding: 0px 0 10px 6px ; 
+        padding-left: 6px;
+        margin:  0 auto ;
+        font-family:"Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体",'Noto Sans JP';
+        font-weight: 600;
+        letter-spacing: 1.2px;
+    }
+
+    #grade p{
+        width: 50px;
+        height: 50px;
+        margin: 5px auto 8px;
+        padding: 0;
+        border-radius: 35px;
+        transition: all 0.4s;
+        opacity: 1;
+    }
+
+    #grade p:hover{
+        opacity: 0.2;
+    }
+
+    .kouiti{ 
+        background-color: #F1EF64;
+    }
+
+    .kouni{
+        background-color: #FF6B60;
+    }
+
+    .kousan{
+        background-color: #185F8D;
+    }
+
+    .buten{
+        background-color: #8CB5D8;
+    }
+
+    #kouichi{
+        height: 50px;
+        margin: 0;
+        padding: 20px 0;
+        display: block;
+    }
+
+    #kouni{
+        height: 50px;
+        margin: 0;
+        padding: 20px 0;
+        display: block;
+    }
+
+    #hr_tenji{
+        width: 48%;
+        margin: 10px 0;
+        padding: 0;
+        position: relative;
+        display: inline-block;
+    }
+
+    #hr_tenji img{
+        width: 42%;
+        display: inline-block;
+        margin: 8px 2%;
+        padding: 0;
+    }
+
+    #hr_tenji_description{
+        width: 53%;
+        display: inline-block;
+        margin: 0 0 0 3%;
+        padding: 0;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    #hr_tenji_description h2{
+        font-size:15px;
+        line-height: 15px;
+        padding:  12px 0 2px; 
+        margin: 0;
+        font-family:"Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体",'Noto Sans JP';
+        font-weight: 600;
+        letter-spacing: 1.2px;
+    }
+
+    #hr_tenji_description h1{
+        font-size:17px;
+        line-height: 26px;
+        padding: 2px 0; 
+        margin: 0;
+        font-family:"Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体",'Noto Sans JP';
+        font-weight: 600;
+        letter-spacing: 1.2px;
+    }
+
+    #hr_tenji_description p{
+        font-size:13px;
+        line-height: 170%;
+        padding: 2px 0 0; 
+        margin:  0 ;
+        font-family:"Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体",'Noto Sans JP';
+        font-weight: 500;
+        letter-spacing: 1.2px;
+    }  
+}
+
+@media only screen and (min-width: 1000px) {
     .toppic_container{
         width: 100%;
         height: 25vw;
