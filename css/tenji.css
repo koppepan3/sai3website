@@ -41,6 +41,125 @@ a:active{
         padding: 4px 0 40px 0;
     }
 
+    .mokuji{
+        width: 90%;
+        height: 85px;
+        margin: 20px auto 5px;
+        padding: 0;
+        text-align: center;
+    }
+
+    #grade{
+        width: 20%;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        display: inline-block;
+    }
+
+    #grade h2{
+        text-align: center;
+        font-size: 14px;
+        padding: 3px 0; 
+        margin:  0 auto ;
+        font-family:'Noto Sans JP',sans-serif;
+        font-weight: 600;
+        letter-spacing: 1.2px;
+    }
+
+    #grade p{
+        width: 12vw;
+        height: 12vw;
+        margin: 5px auto 5px;
+        padding: 0;
+        border-radius: 7vw;
+    }
+
+    .kouiti{ 
+        background-color: #F1EF64;
+    }
+
+    .kouni{
+        background-color: #FF6B60;
+    }
+
+    .kousan{
+        background-color: #185F8D;
+    }
+
+    .buten{
+        background-color: #8CB5D8;
+    }
+
+    #kouichi{
+        height: 10vw;
+        margin: 0 2%;
+        padding: 10px 0;
+        display: block;
+    }
+
+    #kouni{
+        height: 10vw;
+        margin: 0 2%;
+        padding: 10px 0;
+        display: block;
+    }
+
+    #hr_tenji{
+        width: 90%;
+        margin: 2px 5%;
+        padding: 0;
+        position: relative;
+        display: inline-block;
+    }
+
+    #hr_tenji img{
+        width: 40%;
+        display: inline-block;
+        margin: 10px 2.5%;
+        padding: 0;
+    }
+
+    #hr_tenji_description{
+        width: 52%;
+        display: inline-block;
+        margin: 10px 0 0 5%;
+        padding: 0;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    #hr_tenji_description h2{
+        font-size:14px;
+        line-height: 19px;
+        padding:  2px 0 1px; 
+        margin: 0;
+        font-family:'Noto Sans JP',sans-serif;
+        font-weight: 600;
+        letter-spacing: 1.2px;
+    }
+
+    #hr_tenji_description h1{
+        font-size:18px;
+        line-height: 26px;
+        padding: 2px 0; 
+        margin: 0;
+        font-family:'Noto Sans JP',sans-serif;
+        font-weight: 600;
+        letter-spacing: 1.2px;
+    }
+
+    #hr_tenji_description p{
+        font-size: 11px;
+        line-height: 160%;
+        padding: 1px 0 0; 
+        margin:  0 ;
+        font-family:'Noto Sans JP',sans-serif;
+        font-weight: 500;
+        letter-spacing: 1.2px;
+    }    
+
     
 }
 
