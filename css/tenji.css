@@ -68,11 +68,11 @@ a:active{
     }
 
     #grade p{
-        width: 12vw;
-        height: 12vw;
+        width: 9vw;
+        height: 9vw;
         margin: 5px auto 5px;
         padding: 0;
-        border-radius: 7vw;
+        border-radius: 4.5vw;
     }
 
     .kouiti{ 
@@ -130,22 +130,22 @@ a:active{
         right: 0;
     }
 
-    #hr_tenji_description h2{
-        font-size:14px;
+    #hr_tenji_description h2 {
+        font-size: 14px;
         line-height: 19px;
-        padding:  2px 0 1px; 
+        padding: 2px 0 1px;
         margin: 0;
-        font-family:'Noto Sans JP',sans-serif;
+        font-family: 'HIND',sans-serif;
         font-weight: 600;
-        letter-spacing: 1.2px;
-    }
+        letter-spacing: 1.7px;
+    } 
 
-    #hr_tenji_description h1{
-        font-size:18px;
+    #hr_tenji_description h1 {
+        font-size: 16px;
         line-height: 26px;
-        padding: 2px 0; 
+        padding: 2px 0;
         margin: 0;
-        font-family:'Noto Sans JP',sans-serif;
+        font-family: 'Noto Sans JP',sans-serif;
         font-weight: 600;
         letter-spacing: 1.2px;
     }
