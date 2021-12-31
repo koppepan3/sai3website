@@ -51,13 +51,48 @@ a:active{
     .aboutsai3_text{
         color: black;
         font-family: 'Noto Sans JP', sans-serif;
-        font-weight: 700;
-        font-style: normal;
+        font-weight: 400;
+        font-style: regular;
         font-size: 12px;
         letter-spacing: 0.07em;
         line-height: 24px;
         padding: 0 5%;
         margin: 0 0 7px;
+    }
+
+    .jiccho{
+        height: 10vw;
+        margin: 40px 0 0 0;
+        padding: 0;
+    }
+
+    .jiccho_text{
+        color: black;
+        font-family: 'Noto Sans JP', sans-serif;
+        font-weight: 400;
+        font-style: regular;
+        font-size: 12px;
+        letter-spacing: 0.07em;
+        line-height: 24px;
+        padding: 0 5%;
+        margin: 0 0 7px;
+    }
+
+    .jicho_name{
+        width: 100%;
+        height: 5vw;
+        margin: 20px 0 0;
+        padding: 0;
+        position: relative;
+    }
+
+    .jicho_name img{
+        width: 32vw;
+        margin: 0;
+        padding: 0;
+        right: 4vw;
+        top: 0;
+        position: absolute;
     }
 
     .aisatsu{
@@ -66,11 +101,11 @@ a:active{
         padding: 0;
     }
 
-    .aisatsu_text{
+    .aisatsu_text {
         color: black;
         font-family: 'Noto Sans JP', sans-serif;
-        font-weight: 700;
-        font-style: normal;
+        font-weight: 400;
+        font-style: regular;
         font-size: 12px;
         letter-spacing: 0.07em;
         line-height: 24px;
@@ -87,43 +122,22 @@ a:active{
         text-align: right;
     }
 
-    .principle img{
-        height: 30vw;
+    .koucho_pic{
+        width: 25vw;
         margin: 0;
         padding: 0;
         position: absolute;
         top: 0%;
-        right: 0%;
+        right: 2vw;
     }
 
-    .principle_name{
-        position: absolute;
-        bottom: 0%;
-        right:21vw;
-        padding-right: 15px;
+    .koucho_name{
+        width: 35vw;
         margin: 0;
-        padding-bottom: 0;
-    }
-
-    .principle_name h2{
-        font-family:"Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", 'Noto Sans JP';
-        font-weight: 500;
-        font-style: normal;
-        font-size: 15px;
-        letter-spacing: 0.07em;
-        line-height: 20px;
-        margin: 8px 0;
-    }
-
-    .principle_name h1{
-        color: black;
-        font-family:'Noto Sans JP',sans-serif;
-        font-weight: 700;
-        font-style: normal;
-        font-size: 25px;
-        letter-spacing: 0.06em;
-        line-height: 26px;
-        margin: 2px 0;
+        padding: 0;
+        position: absolute;
+        bottom: 0;
+        right: 29vw;
     }
 
 
@@ -171,6 +185,39 @@ a:active{
         line-height: 38px;
     }
 
+    .jiccho{
+        height: 70px;
+        margin: 40px 0 0 0;
+        padding: 0;
+    }
+    
+    .jiccho_text{
+        color: black;
+        font-family:"Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", 'Noto Sans JP';
+        font-weight: 700;
+        font-style: normal;
+        font-size: 18px;
+        letter-spacing: 0.07em;
+        line-height: 40px;
+    }
+
+    .jicho_name{
+        width: 100%;
+        height: 5vw;
+        margin: 0;
+        padding: 0;
+        position: relative;
+    }
+
+    .jicho_name img{
+        width: 13vw;
+        margin: 0;
+        padding: 0;
+        right: 0;
+        top: 0;
+        position: absolute;
+    }
+
     .aisatsu{
         height: 70px;
         margin: 40px 0 0 0;
@@ -196,8 +243,8 @@ a:active{
         text-align: right;
     }
 
-    .principle img{
-        height: 20vw;
+    .koucho_pic{
+        width: 15vw;
         margin: 0;
         padding: 0;
         position: absolute;
@@ -205,32 +252,13 @@ a:active{
         right: 0%;
     }
 
-    .principle_name{
-        position: absolute;
-        bottom: 0%;
-        right:15vw;
-        padding-right: 15px;
+    .koucho_name{
+        width: 15vw;
         margin: 0;
-        padding-bottom: 0;
-    }
-
-    .principle_name h2{
-        font-family:"Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", 'Noto Sans JP';
-        font-weight: 500;
-        font-style: normal;
-        font-size: 18px;
-        letter-spacing: 0.07em;
-        line-height: 20px;
-    }
-
-    .principle_name h1{
-        font-family:"Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", 'Noto Sans JP';
-        font-weight: 700;
-        font-style: normal;
-        font-size: 36px;
-        letter-spacing: 0.07em;
-        line-height: 36px;
-        margin: 4px 0;
+        padding: 0;
+        position: absolute;
+        bottom:0;
+        right: 18vw;
     }
 
 }
