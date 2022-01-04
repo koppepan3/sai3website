@@ -36,7 +36,7 @@ a:active{
     }
 
     .body_content{
-        margin:  0 auto;
+        margin:  0 5%;
         width: 90%;
         padding-top: 20px;
         padding-bottom: 50px;
@@ -45,25 +45,25 @@ a:active{
     .aboutsai3{
         height: 10vw;
         margin: 0;
-        padding: 0;
+        padding: 0 2%;
     }
 
-    .aboutsai3_text{
+    .aboutsai3_text {
         color: black;
         font-family: 'Noto Sans JP', sans-serif;
         font-weight: 400;
         font-style: regular;
         font-size: 12px;
-        letter-spacing: 0.07em;
-        line-height: 24px;
-        padding: 0 5%;
+        letter-spacing: 0.84px;
+        line-height: 28px;
+        padding: 0 2%;
         margin: 0 0 7px;
     }
 
     .jiccho{
         height: 10vw;
-        margin: 40px 0 0 0;
-        padding: 0;
+        margin: 30px 0 0 0;
+        padding: 0 2%;
     }
 
     .jiccho_text{
@@ -72,9 +72,9 @@ a:active{
         font-weight: 400;
         font-style: regular;
         font-size: 12px;
-        letter-spacing: 0.07em;
-        line-height: 24px;
-        padding: 0 5%;
+        letter-spacing: 0.84px;
+        line-height: 28px;
+        padding: 0 2%;
         margin: 0 0 7px;
     }
 
@@ -97,8 +97,8 @@ a:active{
 
     .aisatsu{
         height: 10vw;
-        margin: 40px 0 0 0;
-        padding: 0;
+        margin: 30px 0 0 0;
+        padding: 0 2%;
     }
 
     .aisatsu_text {
@@ -107,9 +107,9 @@ a:active{
         font-weight: 400;
         font-style: regular;
         font-size: 12px;
-        letter-spacing: 0.07em;
-        line-height: 24px;
-        padding: 0 5%;
+        letter-spacing: 0.84px;
+        line-height: 28px;
+        padding: 0 2%;
         margin: 0 0 7px;
     }
 
