@@ -272,7 +272,7 @@ a:active{
 }
 
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 601px) {
     .top_pics{
         width: 100%;
         margin: 0;
