@@ -176,11 +176,11 @@
             // 今日の日付
             var date1 = new Date(Date.now());
             //文化祭
-            var date2 = new Date("2022/01/30");
+            var date2 = new Date("2022/02/28");
             var termDay = (date2 - date1) / 86400000;
             var termDayRounded = Math.ceil(termDay);
             document.getElementById('top_pc').src = 'file/hero_pc/hero_top_pc_'+ termDayRounded + '.png';
-            document.getElementById('top_mobile').src = 'file\hero_mobile/hero_top_mobile_'+ termDayRounded + '.png';
+            document.getElementById('top_mobile').src = 'file/hero_mobile/hero_top_mobile_'+ termDayRounded + '.png';
             };
         </script>
     </body>
