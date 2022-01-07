@@ -35,8 +35,8 @@
             </div>
         </div>
         <div class="top_image">
-            <img class="img_pc" src="file\hero_top_ver2.png" alt="sai3 image">
-            <img class="img_mobile" src="file\hero_top_mobile_ver2.png" alt="sai3 image">
+            <img class="img_pc" id="top_pc" src="file\hero_pc\hero_top_pc_23.png" alt="sai3 image">
+            <img class="img_mobile" id="top_mobile" src="file\hero_mobile\hero_top_mobile_1.png" alt="sai3 image">
         </div>
         <div class="body_contents">  
             <div class="notice">
@@ -167,6 +167,21 @@
                     }
                 });
             });
+
+            
+        </script>
+        <script>
+            window.onload = function () {
+            
+            // 今日の日付
+            var date1 = new Date(Date.now());
+            //文化祭
+            var date2 = new Date("2022/01/30");
+            var termDay = (date2 - date1) / 86400000;
+            var termDayRounded = Math.ceil(termDay);
+            document.getElementById('top_pc').src = 'file/hero_pc/hero_top_pc_'+ termDayRounded + '.png';
+            document.getElementById('top_mobile').src = 'file\hero_mobile/hero_top_mobile_'+ termDayRounded + '.png';
+            };
         </script>
     </body>
 </html>
