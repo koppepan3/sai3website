@@ -36,6 +36,13 @@
             <img class="top_pics" src="file\article_list_top.png">
         </div>
         <div class="body_content">
+            <div class="type_selector">
+                <ul>
+                    <a href="#" onclick="select_all();"><li class="active" id="type_all"><span>全て</span></li></a>
+                    <a href="#" onclick="select_important();"><li class="" id="type_important"><span>重要連絡</span></li></a>
+                    <a href="#" onclick="select_others();"><li id="type_others"><span>その他</span></li></a>
+                </ul>
+              </div>
             <div class="flex-container" >
                 <div id="flex-contents">
                     <a href="">
@@ -98,6 +105,34 @@
                     }
                 });
             });
+        </script>
+        <script>
+            function select_all() {
+                let a = document.getElementById('type_all');
+                a.className = 'active';
+                let b = document.getElementById('type_important');
+                b.className = '';
+                let c = document.getElementById('type_others');
+                c.className = '';
+            }
+
+            function select_important() {
+                let a = document.getElementById('type_all');
+                a.className = '';
+                let b = document.getElementById('type_important');
+                b.className = 'active';
+                let c = document.getElementById('type_others');
+                c.className = '';
+            }
+
+            function select_others() {
+                let a = document.getElementById('type_all');
+                a.className = '';
+                let b = document.getElementById('type_important');
+                b.className = '';
+                let c = document.getElementById('type_others');
+                c.className = 'active';
+            }
         </script>
     </body>
 </html>
