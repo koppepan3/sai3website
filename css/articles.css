@@ -530,7 +530,7 @@ a:active{
         margin: 0;
         display: inline-block;
         border-radius: 8px;
-        border: 4px solid black;
+        border: 3px solid black;
     }
 
     #flex-contents h2 {
