@@ -264,7 +264,7 @@ a:active{
         transform: scale(0, 1);
         transform-origin: center top;
         transition: transform .3s;
-        transform: scale(1, 1); /* homeなので*/
+        transform: scale(0, 1); /* homeなので*/
     }
 
     .header_home:hover::after {

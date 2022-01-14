@@ -366,6 +366,10 @@
 }
 
 @media only screen and (min-width: 601px) {
+    .header_home::after {
+        transform: scale(1, 1) !important; /* homeなので*/
+    }
+
     .body_contents{
         margin: 5%;
         padding: 0;
