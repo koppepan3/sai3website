@@ -401,7 +401,7 @@ a:active{
     #footer_links img{
         margin: 0;
         padding: 25px 0;
-        height: 20px;
+        width: 120px;
         display: inline-block;
     }
 }
