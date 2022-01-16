@@ -136,7 +136,7 @@ a:active{
     .footer{
         margin: 0;
         padding: 0;
-        border-top: 3px black solid;
+        border-top: 2px black solid;
         width: 100%;
         height: 280px;
         position: relative;
@@ -199,7 +199,7 @@ a:active{
         position: absolute;
         left: 8vw;
         bottom: 0;
-        width: 70vw
+        width: 70vw;
     }
 }
 
@@ -425,5 +425,43 @@ a:active{
         right: 40px;
         bottom: 0;
         height: 50px;
+    }
+
+    @media only screen and (max-width: 1000px){
+        .footer_icon{
+            width:120px !important;
+            padding-top: 30px !important;
+            padding-left: 50px !important;
+        }
+    
+        .footer_links_left{
+            width: 200px !important;
+            height: 300px !important;
+            top: 100px !important;
+            left: 50px !important;
+        }
+    
+        .footer_links_right{
+            width: 200px !important;
+            top: 100px !important;
+            left: 250px !important;
+        }
+    
+        #footer_links img{
+            padding: 20px 0 !important;
+            height: 15px !important;
+        }
+    
+        .address_container{
+            margin: 240px 0 0 !important;
+            width: 100% !important;
+            height: 40px !important;
+        }
+    
+        .address_container img{
+            right: 40px !important;
+            bottom: 0 !important;
+            height: 40px !important;
+        }
     }
 }
