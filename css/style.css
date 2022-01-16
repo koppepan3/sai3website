@@ -138,63 +138,68 @@ a:active{
         padding: 0;
         border-top: 3px black solid;
         width: 100%;
-        height: 50vw;
+        height: 280px;
         position: relative;
     }
 
-    .footer_icon_container{
-        width:28vw;
+    #footer_links{
+        margin:0;
+        padding: 0;
+        list-style: none;
+    }
+
+    .footer_icon{
+        width:25vw;
         margin: 0;
-        height: auto;
-        display: inlne-block;
+        display: inline-block;
         padding-top: 5vw;
         padding-left: 5vw;
     }
 
-    .footer img{
-        width:100%;
+    .footer_links_left{
         margin: 0;
-        display: block;
-    }
-
-    .footer ul{
-        margin:0;
-        padding: 0;
-        list-style: none;
-        width: 60vw;
-        display: inlne-block;
+        padding:0;
+        width: 35vw;
+        display: inline-block;
+        height: 300px;
         position: absolute;
-        top: 5vw;
-        left: 40vw;
+        top: 18vw;
+        left: 8vw;
     }
 
-    .footer_links p{
+    .footer_links_right{
         margin: 0;
-        font-size: 3.2vw;
-        line-height: 4.4vw;
-        font-family: 'Noto Sans JP', sans-serif;
-        font-weight: bold;
-        padding: 0 0 4.6vw 0;
+        padding:0;
+        width: 40vw;
+        display: inline-block;
+        height: 300px;
+        position: absolute;
+        top: 18vw;
+        left: 43vw;
     }
 
-    .address{
+    #footer_links img{
         margin: 0;
+        padding: 20px 0;
+        height: 3vw;
+        display: inline-block;
+    }
+
+    .address_container{
+        margin: 240px 0 0;
         padding: 0;
-        position: static;
-        text-align: center;
+        width: 100%;
+        height: 40px;
         position: relative;
-        top: 20vw;
     }
 
-    .address p {
+    .address_container img{
         margin: 0;
         padding: 0;
-        font-size: 2.8vw;
-        line-height: 5.6vw;
-        font-family: 'Noto Sans JP', sans-serif;
-        font-weight: lighter;
-        padding: 0.2px 0;
-        letter-spacing: 0.3px;
+        position: absolute;
+        left: 8vw;
+        bottom: 0;
+        width: 70vw
     }
 }
 
@@ -358,7 +363,7 @@ a:active{
     .footer{
         margin: 0;
         padding: 0;
-        border-top: 3px black solid;
+        border-top: 2px black solid;
         width: 100%;
         height: 320px;
         position: relative;
@@ -419,5 +424,6 @@ a:active{
         position: absolute;
         right: 40px;
         bottom: 0;
+        height: 50px;
     }
 }
