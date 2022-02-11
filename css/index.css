@@ -679,15 +679,16 @@
 
     .flex-container{
         margin: 50px 0;
+        padding:0;
         width: 100%;
         display: flex;
         flex-wrap: wrap;
-        justify-content: center;
+        justify-content: space-between;
     }
 
     #flex-contents{
-        width: 38%;
-        margin: 10px 4%;
+        width: 28%;
+        margin: 10px 2%;
         padding-bottom: 15px;
         position: relative;
         text-align: left;
@@ -749,7 +750,7 @@
     }
 
     #post_classification{
-        padding-left: 8px;
+        padding-left: 0px;
     }
 
     @media only screen and (max-width: 1000px) {
@@ -766,5 +767,6 @@
             font-family:"Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体",'Noto Sans JP';
             font-weight: normal;
         }
+
     }
 }
