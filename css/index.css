@@ -510,7 +510,7 @@
     }
 
     .theme_pic_container{
-        width: 22.5vw;
+        width: 15vw;
         margin: 0 2vw;
         padding: 0;
         display: inline-block;
@@ -523,9 +523,9 @@
     }
 
     .theme_description{
-        width: 55vw;
-        height: 36vw;
-        margin: 5vw 0;
+        width: 65vw;
+        height: 26vw;
+        margin: 5vw 0 2vw;
         padding: 0vw 0 0vw 2.25vw;
         display: inline-block;
         border-left: 3px solid black;
