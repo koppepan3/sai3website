@@ -169,106 +169,63 @@
         text-decoration: none;
     }
 
-    .slider_contrainer ul{
-        margin:0;
+    .swiper{
+        margin: 20px  0;
         padding: 0;
-        list-style: none;
-      }
+        width: 100%;
+    }
 
-    .slider_contrainer p{
+    .swiper--wrapper {
+        /* wrapperのサイズを調整 */
+        width: 90%;
+        height: 100%;
+    }
+      
+    .swiper-slide{
+        width: 100%;
+        height: 100%;
+        text-align: center;
+    }
+
+    .swiper-slide p{
         text-align: center;
         font-family: 'Noto Sans JP', sans-serif;
         font-size: 5vw;
         font-weight: bold;
         letter-spacing: 0.1vw;
-      }
-
-      .slider_contrainer{
-        margin: 20px  0;
-        padding: 0;
-        width: 100%;
-    
-      }
-
-        /*==================================================
-    スライダーのためのcss
-    ===================================*/
-    .slider {
-        width:94%;
-        margin:0 auto;
-    }
-    
-    .slider img {
-        width:100%;/*スライダー内の画像を横幅100%に*/
-        height:auto;
-        z-index: 10;
-    }
-    
-    /*slickのJSで書かれるタグ内、スライド左右の余白調整*/
-    
-    .slider .slick-slide {
-        margin:0 30px;
-    }
-    
-    /*矢印の設定*/
-    
-    /*戻る、次へ矢印の位置*/
-    .slick-prev, 
-    .slick-next {
-        position: absolute;/*絶対配置にする*/
-        top: 42%;
-        cursor: pointer;/*マウスカーソルを指マークに*/
-        outline: none;/*クリックをしたら出てくる枠線を消す*/
-        border-top: 3px solid rgb(53, 53, 53);/*矢印の色*/
-        border-right: 3px solid rgb(53, 53, 53);/*矢印の色*/
-        height: 20px;
-        width: 20px;
-    }
-    
-    .slick-prev {/*戻る矢印の位置と形状*/
-        left: 0%;
-        transform: rotate(-135deg);
-        z-index: 11;
-    }
-    
-    .slick-next {/*次へ矢印の位置と形状*/
-        right: 0%;
-        transform: rotate(45deg);
-        z-index: 12;
-    }
-    
-    /*ドットナビゲーションの設定*/
-    
-    .slick-dots {
-        text-align:center;
-        margin:15px 0 0 0;
-    }
-    
-    .slick-dots li {
-        display:inline-block;
-        margin:0 5px;
-    }
-    
-    .slick-dots button {
-        color: transparent;
-        outline: none;
-        width:4px;
-        height:4px;
-        display:block;
-        border-radius:50%;
-        background:rgb(231, 230, 230);/*ドットボタンの色*/
-        padding: 4px;
-        border: none;
-    }
-    
-    .slick-dots .slick-active button{
-        background:#333;/*ドットボタンの現在地表示の色*/
     }
 
-    .article_link_container{
-        width: 100%;
-        position:relative;
+    .swiper-slide img{
+        width: 75%;
     }
+
+    .swiper-button-prev:after,
+    .swiper-button-next:after {
+        color: black;
+    }
+
+    .swiper-pagination-bullet {
+        width: 13px !important;
+        height: 13px !important;
+        margin: 0 0 0 10px !important;
+        background: #333 !important;
+    }
+
+    .swiper-pagination-bullets {
+        position: static;
+        margin-top: 16px;
+    }
+
+    .swiper-pagination-bullet:first-child {
+        margin: 0 !important;
+    }
+      
+    .swiper-pagination-bullet:first-child {
+        margin: 0 !important;
+    }
+
+
+
 
     .articles_home_link{
         position: absolute;
@@ -568,99 +525,59 @@
         text-decoration: none;
     }
 
-    .slider_contrainer ul{
-        margin:0;
-        padding: 0;
-        list-style: none;
-    }
-
-    .slider_contrainer p{
-        text-align: center;
-        font-family:'Noto Sans JP',sans-serif;
-        font-size: 24px;
-        font-weight: 600;
-        letter-spacing: 0.07em;
-    }
-
-    .slider_contrainer{
+    .swiper{
         margin:0;
         padding: 0;
         width: 100%;
     }
 
-    .slider img{
+    .swiper-slide img{
         opacity: 1;
         transition: all 0.5s;
     }
-    .slider img:hover{
+    .swiper-slide img:hover{
         opacity:0.5;
     }
-      
-    /*==================================================
-    スライダーのためのcss
-    ===================================*/
-    .slider {
-        width:100%;
-        margin:0 auto;
-    }
-    
-    .slider img {
-        width:100%;/*スライダー内の画像を横幅100%に*/
-        height:auto;
-    }
-    
-    /*slickのJSで書かれるタグ内、スライド左右の余白調整*/
-    .slider .slick-slide {
-        margin:0 40px;
-    }
-    
-    /*矢印の設定*/
 
-    /*戻る、次へ矢印の位置*/
-    .slick-prev, 
-    .slick-next {
-        position: absolute;/*絶対配置にする*/
-        top: 42%;
-        cursor: pointer;/*マウスカーソルを指マークに*/
-        outline: none;/*クリックをしたら出てくる枠線を消す*/
-        border-top: 3px solid rgb(53, 53, 53);/*矢印の色*/
-        border-right: 3px solid rgb(53, 53, 53);/*矢印の色*/
-        height: 25px;
-        width: 25px;
+
+    .swiper--wrapper {
+        /* wrapperのサイズを調整 */
+        width: 90%;
+        height: 100%;
     }
-    
-    .slick-prev {/*戻る矢印の位置と形状*/
-        left: -1.5%;
-        transform: rotate(-135deg);
+      
+    .swiper-slide{
+        width: 100%;
+        height: 100%;
+        text-align: center;
     }
-    .slick-next {/*次へ矢印の位置と形状*/
-        right: -1.5%;
-        transform: rotate(45deg);
+
+    .swiper-slide p{
+        text-align: center;
+        font-family:'Noto Sans JP',sans-serif;
+        font-size: 24px;
+        font-weight: 600;
+        letter-spacing: 0.07em;
+        margin: 10px 0 40px;
     }
-    
-    /*ドットナビゲーションの設定*/
-    .slick-dots {
-        text-align:center;
-        margin:20px 0 0 0;
+
+    .swiper-slide img{
+        width: 75%;
     }
-    .slick-dots li {
-        display:inline-block;
-        margin:0 5px;
+
+    .swiper-button-prev:after,
+    .swiper-button-next:after {
+        color: black;
     }
-    .slick-dots button {
-        color: transparent;
-        outline: none;
-        width:8px;
-        height:8px;
-        display:block;
-        border-radius:50%;
-        background:rgb(231, 230, 230);/*ドットボタンの色*/
-        padding: 7px;
-        border: none;
-    }
-    .slick-dots .slick-active button{
-        background:#333;/*ドットボタンの現在地表示の色*/
-    }
+
+    .swiper-pagination-bullet {
+        width: 13px !important;
+        height: 13px !important;
+        margin: 0px 0 0 12px !important;
+        background: #333 !important;
+      }
+      
+
 
     .article_link_container{
         width: 100%;

@@ -9,10 +9,8 @@
         <!-- Favicon設定-->
         <link rel="apple-touch-icon" href="file/favicon/apple-touch-icon.png">
         <link type="image/x-icon" rel="icon" href="file/favicon/favicon.ico">
-        <!--  Slick css 読み込み  -->
-        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
-        <link rel="icon" href="file/favicon/favicon.ico">
-
+        <!--  Swiper 読み込み  -->
+        <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
         <!--  Google Font 読み込み  -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -85,17 +83,22 @@
             </div>
             <div class="contents" id="subcontents">
                 <img class="contents_title" id="subtitle" src="file/contents_.svg" alt="Contents">
-                <div class="slider_contrainer" id="contents_link">
-                    <ul class="slider">
-                    <a href=""><li><img src="file\live.png" alt=""><p>ライブ配信</p></li></a>
-                    <a href="pamphlet.html"><li><img src="file\panhu.png" alt=""><p>パンフレット</p></li></a>
-                    <a href="tenji.html"><li><img src="file\tenji.png" alt=""><p>展示紹介</p></li></a>
-                    <a href=""><li><img src="file\gallery.png" alt=""><p>ギャラリー</p></li></a>
-                    <a href=""><li><img src="file\kuraT.png" alt=""><p>クラT紹介</p></li></a>
-                    <a href=""><li><img src="file\tenji.png" alt=""><p>展示紹介</p></li></a>
-                    <a href=""><li><img src="file\tenji.png" alt=""><p>展示紹介</p></li></a>
-                    <a href=""><li><img src="file\tenji.png" alt=""><p>展示紹介</p></li></a>
-                  <!--/slider--></ul>
+                <div class="swiper" id="contents_link">
+                    <!-- 必要に応じたwrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- スライド -->
+                        <div class="swiper-slide"><a href=""></a><img src="file\live.png" alt=""><p>ライブ配信</p></a></div>
+                        <div class="swiper-slide"><a href=""></a><img src="file\panhu.png" alt=""><p>ライブ配信</p></a></div>
+                        <div class="swiper-slide"><a href=""></a><img src="file\gallery.png" alt=""><p>ギャラリー</p></a></div>
+                        <div class="swiper-slide"><a href=""></a><img src="file\kuraT.png" alt=""><p>クラT紹介</p></a></div>
+                        <div class="swiper-slide"><a href=""></a><img src="file\tenji.png" alt=""><p>展示紹介</p></a></div>
+                        <div class="swiper-slide"><a href=""></a><img src="file\tenji.png" alt=""><p>展示紹介</p></a></div>
+                        <div class="swiper-slide"><a href=""></a><img src="file\tenji.png" alt=""><p>展示紹介</p></a></div>
+                        <div class="swiper-slide"><a href=""></a><img src="file\tenji.png" alt=""><p>展示紹介</p></a></div>
+                    </div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-pagination"></div>
                 </div>
             </div>
             <div class="post" id="subcontents">
@@ -155,8 +158,6 @@
             <div class="address_container"><img src="file\footer\address.svg" alt=""></div>
         </div>
         <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-        <!--Slick js-->
-        <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
         <!--自作のJS-->
         <script src="slicksettings.js"></script>
         <script>
@@ -180,12 +181,25 @@
             // 今日の日付
             var date1 = new Date(Date.now());
             //文化祭
-            var date2 = new Date("2022/02/28");
+            var date2 = new Date("2022/04/25");
             var termDay = (date2 - date1) / 86400000;
             var termDayRounded = Math.ceil(termDay);
             document.getElementById('top_pc').src = 'file/hero_pc/hero_top_pc_'+ termDayRounded + '.png';
             document.getElementById('top_mobile').src = 'file/hero_mobile/hero_top_mobile_'+ termDayRounded + '.png';
             };
+        </script>
+        <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+        <script>
+            const swiper = new Swiper(".swiper", {
+                slidesPerView: 3,
+                slidesPerGroup:3,
+                pagination: {
+                    el: ".swiper-pagination"
+                },
+                navigation: {
+                    nextEl: ".swiper-button-next",
+                    prevEl: ".swiper-button-prev"}
+                });
         </script>
     </body>
 </html>
