@@ -84,7 +84,6 @@
             <div class="contents" id="subcontents">
                 <img class="contents_title" id="subtitle" src="file/contents_.svg" alt="Contents">
                 <div class="swiper" id="contents_link">
-                    <!-- 必要に応じたwrapper -->
                     <div class="swiper-wrapper">
                         <!-- スライド -->
                         <div class="swiper-slide"><a href=""></a><img src="file\live.png" alt=""><p>ライブ配信</p></a></div>
@@ -96,9 +95,9 @@
                         <div class="swiper-slide"><a href=""></a><img src="file\tenji.png" alt=""><p>展示紹介</p></a></div>
                         <div class="swiper-slide"><a href=""></a><img src="file\tenji.png" alt=""><p>展示紹介</p></a></div>
                     </div>
-                    <div class="swiper-button-prev"></div>
-                    <div class="swiper-button-next"></div>
-                    <div class="swiper-pagination"></div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
                 </div>
             </div>
             <div class="post" id="subcontents">
@@ -191,15 +190,27 @@
         <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
         <script>
             const swiper = new Swiper(".swiper", {
-                slidesPerView: 3,
-                slidesPerGroup:3,
-                pagination: {
-                    el: ".swiper-pagination"
+                slidesPerView:1,
+                slidesPerGroup:1,
+                loop: true,
+
+                breakpoints: {
+                    1200: {
+                        slidesPerView:4,
+                        slidesPerGroup:4
+                    },
+                    601: {
+                        slidesPerView:3,
+                        slidesPerGroup:3
+                    },
                 },
                 navigation: {
                     nextEl: ".swiper-button-next",
-                    prevEl: ".swiper-button-prev"}
-                });
+                    prevEl: ".swiper-button-prev"},
+                pagination: {
+                    el: ".swiper-pagination"
+                },
+            });
         </script>
     </body>
 </html>
