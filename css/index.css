@@ -122,20 +122,20 @@
     }
 
     .theme_pic_container{
-        width: 70%;
-        margin: 0;
-        padding: 0 15%;
+        width: 90%;
+        margin: 20px 0 0;
+        padding: 0 5%;
     }
 
     .theme_pic_container img{
-        width: 100%;
+        width: 45%;
         margin: 0;
-        padding: 0;
+        padding: 0 55% 0 0;
     }
 
     .theme_description{
         width: 100%;
-        margin: 5vw 0;
+        margin: 5px 0 0;
     }
 
     .theme_description p {
@@ -170,7 +170,7 @@
     }
 
     .swiper{
-        margin: 20px  0;
+        margin: 10px  0;
         padding: 0;
         width: 100%;
     }
@@ -247,8 +247,9 @@
         margin: 0 !important;
     }
 
-
-
+    .article_link_container{
+        position: relative;
+    }
 
     .articles_home_link{
         position: absolute;
@@ -628,13 +629,13 @@
         position:relative;
     }
 
-    .articles_home_link{
+    .articles_home_link {
         position: absolute;
         top: 0%;
-        right: 5%;
+        right: 1.5%;
         margin-bottom: 50px;
         font-size: 20px;
-        font-family:"Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体",'Noto Sans JP';
+        font-family: "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体",'Noto Sans JP';
         font-weight: 500;
     }
 
