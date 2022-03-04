@@ -388,9 +388,9 @@
     }
 
     .notice{
-        margin: 0 5%;
+        margin: 0;
         padding: 0;
-        width: 90%;
+        width: 100%;
         text-align: center;
     }
 
@@ -406,7 +406,7 @@
     #notifications{
         display: block;
         flex-basis:50%;
-        width: 30vw;
+        width: 33vw;
         height: 140px;
         text-align: left;
         margin: 20px 3vw;
@@ -492,22 +492,28 @@
 
     .theme_pic_container{
         width: 15vw;
+        height: 26vw;
         margin: 0 2vw;
         padding: 0;
         display: inline-block;
+        position: relative;
     }
 
     .theme_pic_container img{
+        position: absolute;
+        top: 13vw;
+        left: 0;
         width: 100%;
         margin: 0;
         padding: 0;
+        transform: translateY(-50%);
     }
 
     .theme_description{
         width: 65vw;
         height: 26vw;
-        margin: 5vw 0 2vw;
-        padding: 0vw 0 0vw 2.25vw;
+        margin: 10px 0 0;
+        padding: 0 0 0 2.25vw;
         display: inline-block;
         border-left: 3px solid black;
         position:relative;
@@ -591,28 +597,7 @@
 
     .swiper-button-prev:after,
     .swiper-button-next:after {
-        display: none;
-    }
-
-    .swiper-button-prev,
-    .swiper-button-next {
-        width: 22px; 
-        height: 40px; 
-        background-size: 22px 40px; 
-        transform: translateY(-50%);
-        margin-top: 0;
-        background-repeat: no-repeat;
-    }
-
-    .swiper-button-prev{
-        background-image: url('../file/img_arrow_black_01.png');
-        transform: translateY(-50%) scale(-1, 1);
-        position: absolute;
-        right: 20px !important;
-    }
-
-    .swiper-button-next{
-        background-image: url('../file/img_arrow_black_01.png');
+        color: black;
     }
 
     .swiper-pagination-bullet {
@@ -640,7 +625,7 @@
     }
 
     .flex-container{
-        margin: 50px 0;
+        margin: 40px 0 0;
         padding:0;
         width: 100%;
         display: flex;
