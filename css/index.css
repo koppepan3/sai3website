@@ -203,29 +203,9 @@
 
     .swiper-button-prev:after,
     .swiper-button-next:after {
-        display: none;
+        color: black;
     }
 
-    .swiper-button-prev,
-    .swiper-button-next {
-        width: 22px; 
-        height: 40px; 
-        background-size: 22px 40px; 
-        transform: translateY(-50%);
-        margin-top: 0;
-        background-repeat: no-repeat;
-    }
-
-    .swiper-button-prev{
-        background-image: url('../file/img_arrow_black_01.png');
-        transform: translateY(-50%) scale(-1, 1);
-        position: absolute;
-        right: 20px !important;
-    }
-
-    .swiper-button-next{
-        background-image: url('../file/img_arrow_black_01.png');
-    }
 
     .swiper-pagination-bullet {
         width: 10px !important;
