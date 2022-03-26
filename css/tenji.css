@@ -37,7 +37,7 @@ a:active{
 
     .body_content{
         margin:  0 auto;
-        width: 94%;
+        width: 90%;
         padding: 4px 0 40px 0;
     }
 
@@ -93,21 +93,21 @@ a:active{
 
     #kouichi{
         height: 10vw;
-        margin: 0 7%;
+        margin: 0;
         padding: 10px 0;
         display: block;
     }
 
     #kouni{
         height: 10vw;
-        margin: 0 7%;
+        margin: 0;
         padding: 10px 0;
         display: block;
     }
 
     #hr_tenji{
-        width: 90%;
-        margin: 2px 5%;
+        width: 100%;
+        margin: 2px 0;
         padding: 0;
         position: relative;
         display: inline-block;
@@ -116,14 +116,14 @@ a:active{
     #hr_tenji img{
         width: 40%;
         display: inline-block;
-        margin: 10px 2.5%;
+        margin: 10px 0;
         padding: 0;
     }
 
     #hr_tenji_description{
-        width: 52%;
+        width: 56%;
         display: inline-block;
-        margin: 10px 0 0 5%;
+        margin: 20px 0 0;
         padding: 0;
         position: absolute;
         top: 0;
@@ -131,7 +131,7 @@ a:active{
     }
 
     #hr_tenji_description h2 {
-        font-size: 14px;
+        font-size: 15px;
         line-height: 19px;
         padding: 2px 0 1px;
         margin: 0;
@@ -141,8 +141,8 @@ a:active{
     } 
 
     #hr_tenji_description h1 {
-        font-size: 16px;
-        line-height: 26px;
+        font-size: 17px;
+        line-height: 20px;
         padding: 2px 0;
         margin: 0;
         font-family: 'Noto Sans JP',sans-serif;
@@ -153,7 +153,7 @@ a:active{
     #hr_tenji_description p{
         font-size: 11px;
         line-height: 160%;
-        padding: 1px 0 0; 
+        padding: 4px 0 0; 
         margin:  0 ;
         font-family:'Noto Sans JP',sans-serif;
         font-weight: 500;
