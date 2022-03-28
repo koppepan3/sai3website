@@ -2,7 +2,6 @@
 <html>
     <head>
         <meta charset="utf-8">
-
         <!-- Google Tag Manager -->
         <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
         new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -35,11 +34,7 @@
             <div class="justbackground"></div>
             <a href="index.html"><img class="header_icon" src="file/icon.svg" alt="sai3 icon"></a>
             <!--  ハンバーガーボタン  -->
-            <div class="hamburger">
-                <span></span>
-                <span></span>
-                <span></span>
-              </div>
+            <div class="hamburger"><span></span><span></span><span></span></div>
             <nav class="hamburger_list">
                 <a href="index.html"><h1 class="header_home">HOME</h1></a>
                 <a href="index.html#contents_link"><h1 class="header_contents">CONTENTS</h1></a>
@@ -160,7 +155,7 @@
         <div class="footer">
             <a href="index.html"><img class="footer_icon" src="file/icon.svg" alt="sai3 icon"></a>
             <ul class="footer_links_left" id="footer_links">
-                <a href="about.html"><li><img src="file\footer\about.svg" alt="彩西祭について"></li></a>
+                <a href="about.html"><li><img src="file\footer\about.s　vg" alt="彩西祭について"></li></a>
                 <a href="map.html"><li><img src="file\footer\map.svg" alt="校内マップ"></li></a>
                 <a href="timetable.html"><li><img src="file\footer\table.svg" alt="タイムテーブル"></li></a>
             </ul>
@@ -170,7 +165,10 @@
             </ul>
             <div class="address_container"><img src="file\footer\address.svg" alt=""></div>
         </div>
+
+        <!--jQuery読み込み-->
         <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+        <!--Hamburger buttond JS-->
         <script>
             $(function() {
                 $('.hamburger').click(function() {
@@ -184,6 +182,7 @@
                 });
             });
         </script>
+        <!--トップ画像入れ替え JS-->
         <script>
             window.onload = function () {
             
@@ -197,6 +196,8 @@
             document.getElementById('top_mobile').src = 'file/hero_mobile/hero_top_mobile_'+ termDayRounded + '.png';
             };
         </script>
+
+        <!--Swiper JS-->
         <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
         <script>
             const swiper = new Swiper(".swiper", {
