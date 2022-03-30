@@ -242,6 +242,16 @@
         font-weight: 500;
     }
 
+    .embedpost{
+        margin: 10px 0 0;
+        padding: 0;
+        width: 100%;
+        border: none;
+        box-shadow: none;
+        height: 700px;
+        overflow: hidden;
+    }
+
     .flex-container{
         margin: 40px 0;
         width: 100%;
@@ -603,6 +613,16 @@
         font-size: 20px;
         font-family: "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体",'Noto Sans JP';
         font-weight: 500;
+    }
+
+    .embedpost{
+        margin: 40px 0 0;
+        padding: 0;
+        width: 100%;
+        border: none;
+        box-shadow: none;
+        height: 1000px;
+        overflow: hidden;
     }
 
     .flex-container{
