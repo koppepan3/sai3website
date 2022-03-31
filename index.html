@@ -110,7 +110,7 @@
             <div class="post" id="subcontents">
                 <img class="post_title" id="subtitle" src="file/index_title/posts_.svg" alt="Posts">
                 <div class="article_link_container"><a class="articles_home_link" href="articles.html">すべての記事を見る→</a></div>
-                <iframe class="embedpost" src="latestposts.html"></iframe>
+                <div id="loadpost"></div>
             </div>
         </div>
         <div class="footer">
@@ -141,6 +141,12 @@
                         $('.hamburger_list').removeClass('active');
                     }
                 });
+            });
+        </script>
+        <!--EmbedPost読み込み JS-->
+        <script>
+            $(function(){
+                $("#loadpost").load("latestposts.html");
             });
         </script>
         <!--トップ画像入れ替え JS-->
