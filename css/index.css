@@ -242,16 +242,6 @@
         font-weight: 500;
     }
 
-    .embedpost{
-        margin: 10px 0 0;
-        padding: 0;
-        width: 100%;
-        border: none;
-        box-shadow: none;
-        height: 700px;
-        overflow: hidden;
-    }
-
     .flex-container{
         margin: 40px 0;
         width: 100%;
