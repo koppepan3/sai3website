@@ -169,9 +169,8 @@ a:active{
     }
 
     .slider_contrainer{
-        height: 94vh;
-        width: 65vh;
-        margin: 30px auto 0;
+        width: 40vw;
+        margin: 80px auto 0;
         padding: 0;
     }
 
@@ -248,20 +247,16 @@ a:active{
     }
 
     .download_button{
-        border: 4px solid #9BC3C9;
+        border: 2.5px solid #9BC3C9;
         color: black;
-        padding: 15px 0 15px 40px;
+        padding: 6px 0 6px 20px;
         text-align: center;
         text-decoration: none;
         display: block;
         margin: 40px auto;
         cursor: pointer;
-        border-radius: 12px;
-        font-family:"Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体";
-        font-weight: 700;
-        letter-spacing: 2px;
-        font-size: 24px;
-        width: 400px;
+        border-radius: 30px;
+        width: 350px;
         position: relative;
         transition: all 0.5s;
     }
@@ -271,7 +266,7 @@ a:active{
     }
 
     .download_button img{
-        height: 40px;
+        height: 32px;
         padding: 0;
         margin: 0px 5px;
         position: absolute;
@@ -279,5 +274,14 @@ a:active{
         left: 40px;
         transform: translateY(-50%);
         -webkit- transform: translateY(-50%);
+    }
+
+    .download_button h3{
+        font-family:"Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体";
+        font-weight: 700;
+        letter-spacing: 2px;
+        font-size: 20px;
+        margin: 0;
+        padding: 0 0 0 20px;
     }
 }
