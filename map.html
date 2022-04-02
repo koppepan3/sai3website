@@ -3,11 +3,10 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>404 Not Found</title>
+        <title>彩西祭2022/校内マップ</title>
         <meta name=”description” content="2020年度浜松西高等学校・同中等部文化祭「彩西祭」公式ウェブサイトへようこそ。当日の情報から準備の様子まで、様々なことを発信していきます。" />
         <link rel="stylesheet" href="css/style.css">
-        <!-- Googlebot-->
-        <meta name="robots" content="noindex">
+        <link rel="stylesheet" href="css/map.css">
         <!-- Favicon設定-->
         <link rel="apple-touch-icon" href="file/favicon/apple-touch-icon.png">
         <link type="image/x-icon" rel="icon" href="file/favicon/favicon.ico">
@@ -20,72 +19,11 @@
 
             gtag('config', 'G-3QLX3J4X3K');
         </script>
+
         <!--  Google Font 読み込み  -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Hind:wght@700&family=Montserrat:wght@500&family=Noto+Sans+JP:wght@300;400;700&display=swap" rel="stylesheet">  
-        <style>
-            .body_contents{
-                width: 100%;
-                height: 100vh;
-            }
-            @media only screen and (max-width: 600px) {
-                .body_contents{
-                    text-align: center;
-                }
-
-                h1{
-                    padding-top: 180px;
-                    margin: 0;
-                    color: black;
-                    font-family: 'Noto Sans JP', sans-serif;
-                    font-weight: 700;
-                    font-size: 28px;
-                    line-height: 28px;
-                    letter-spacing: 0.9px;
-                }
-
-                p{
-                    padding-top: 30px;
-                    margin: 0 10vw;
-                    text-align: left;
-                    color: black;
-                    font-family: 'Noto Sans JP', sans-serif;
-                    font-weight: 700;
-                    font-size: 14px;
-                    line-height: 18px;
-                    letter-spacing: 0.4px;
-                }
-            }
-
-            @media only screen and (min-width: 600px) {
-                h1{
-                    padding-top: 180px;
-                    padding-left: 26vw;
-                    margin: 0;
-                    text-align: left;
-                    color: black;
-                    font-family: 'Noto Sans JP', sans-serif;
-                    font-weight: 700;
-                    font-size: 44px;
-                    line-height: 28px;
-                    letter-spacing: 0.9px;
-                }
-
-                p{
-                    padding-top: 50px;
-                    padding-left: 26vw;
-                    margin: 0;
-                    text-align: left;
-                    color: black;
-                    font-family: 'Noto Sans JP', sans-serif;
-                    font-weight: 700;
-                    font-size: 24px;
-                    line-height: 28px;
-                    letter-spacing: 0.9px;
-                }
-            }
-        </style>
     </head>
     <body>
         <div class="header">
@@ -103,13 +41,13 @@
                 <a href="about.html"><h1 class="header_about">ABOUT</h1></a>
             </nav>
         </div>
-        <div class="body_contents">
-            <h1>404 Not Found</h1>
-            <p>このページは存在しない、もしくは準備中です。更新をお待ちください。
-                <br>
-                <br><a href="index.html">トップページはこちら</a>
-            </p>
+        <div class="toppic_container">
+            <img class="top_pics" src="file/map_top.png">
         </div>
+        <div class="body_content">
+            <img class="map_pic" src="file/kounaimap.png">
+        </div>
+        
         <div class="footer">
             <a href="index.html"><img class="footer_icon" src="file/icon.svg" alt="sai3 icon"></a>
             <ul class="footer_links_left" id="footer_links">
