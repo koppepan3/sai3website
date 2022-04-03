@@ -36,8 +36,8 @@ a:active{
 
     .slider_contrainer{
         height: 120vw;
-        width: 90vw;
-        margin: 30px auto 0;
+        width: 95vw;
+        margin: 60px auto 0;
         padding: 0;
     }
 
@@ -97,7 +97,7 @@ a:active{
     }
     .slick-dots li {
         display:inline-block;
-        margin:20px 5px;
+        margin:20px 3px;
     }
     .slick-dots button {
         color: transparent;
@@ -115,37 +115,39 @@ a:active{
     }
 
     .download_button{
-        border: 3px solid #9BC3C9;
+        border: 2px solid #9BC3C9;
         color: black;
-        padding: 10px 0 10px 40px;
+        padding: 8px 0 8px 0;
         text-align: center;
         text-decoration: none;
         display: block;
-        margin: 30px auto;
+        margin: 30px auto 70px;
         cursor: pointer;
-        border-radius: 12px;
-        font-family: 'Noto Sans JP', sans-serif;
-        font-weight: 700;
-        letter-spacing: 2px;
-        font-size: 14px;
-        width: 60vw;
+        border-radius: 100px;
+        width: 70vw;
         position: relative;
         transition: all 0.5s;
     }
 
-    .download_button:hover{
-        background: #d5e9ec;
-    }
 
     .download_button img{
-        height: 40px;
+        height: 30px;
         padding: 0;
         margin: 0px 5px;
         position: absolute;
         top: 50%;
-        left: 5px;
+        left: 15px;
         transform: translateY(-50%);
         -webkit- transform: translateY(-50%);
+    }
+
+    .download_button h3{
+        font-family: 'Noto Sans JP', sans-serif;
+        font-weight: 700;
+        letter-spacing: 2px;
+        font-size: 13px;
+        margin: 0;
+        padding: 0 0 0 20px;
     }
 
 }
@@ -169,7 +171,7 @@ a:active{
     }
 
     .slider_contrainer{
-        width: 40vw;
+        width: 35vw;
         margin: 80px auto 0;
         padding: 0;
     }
@@ -207,10 +209,10 @@ a:active{
         top: 42%;
         cursor: pointer;/*マウスカーソルを指マークに*/
         outline: none;/*クリックをしたら出てくる枠線を消す*/
-        border-top: 3px solid rgb(53, 53, 53);/*矢印の色*/
-        border-right: 3px solid rgb(53, 53, 53);/*矢印の色*/
-        height: 25px;
-        width: 25px;
+        border-top: 4px solid rgb(53, 53, 53);/*矢印の色*/
+        border-right: 4px solid rgb(53, 53, 53);/*矢印の色*/
+        height: 30px;
+        width: 30px;
     }
     
     .slick-prev {/*戻る矢印の位置と形状*/
@@ -225,7 +227,7 @@ a:active{
     /*ドットナビゲーションの設定*/
     .slick-dots {
         text-align:center;
-        margin:20px 0 0 0;
+        margin:20px 0 0 0 !important;
     }
     .slick-dots li {
         display:inline-block;
@@ -234,12 +236,12 @@ a:active{
     .slick-dots button {
         color: transparent;
         outline: none;
-        width:5px;
-        height:5px;
+        width:7px;
+        height:7px;
         display:block;
         border-radius:50%;
         background:rgb(231, 230, 230);/*ドットボタンの色*/
-        padding: 5px;
+        padding: 6px;
         border: none;
     }
     .slick-dots .slick-active button{
@@ -253,7 +255,7 @@ a:active{
         text-align: center;
         text-decoration: none;
         display: block;
-        margin: 40px auto;
+        margin: 60px auto 120px;
         cursor: pointer;
         border-radius: 30px;
         width: 350px;
