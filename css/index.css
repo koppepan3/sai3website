@@ -41,9 +41,9 @@
 
     #notifications{
         width: 100%;
-        height: 22vw;
+        height: 90px;
         text-align: left;
-        margin: 7vw 0;
+        margin: 5px 0 20px;
         padding: 0;
         border-bottom: 0.5px solid rgb(151, 151, 151);
     }
@@ -123,7 +123,7 @@
 
     .theme_pic_container{
         width: 90%;
-        margin: 30px 0 20px;
+        margin: 20px 0 20px;
         padding: 0 5%;
     }
 
@@ -138,23 +138,22 @@
         margin: 5px 0 0;
     }
 
-    .theme_description p {
+    .theme_description p{
         width: 90%;
         padding: 0;
         margin: 0 5%;
         text-align: left;
-        color: black;
         font-family: 'Noto Sans JP', sans-serif;
         font-weight: regular;
         font-size: 14px;
-        line-height: 28px;
-        letter-spacing: 0.84px;
+        line-height: 32px;
+        letter-spacing: 0.96px;
     }
 
     #subcontents{
         text-align: center;
         width: 100%;
-        margin: 40px 0 ;
+        margin: 55px 0 ;
         padding: 0;
     }
 
