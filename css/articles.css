@@ -483,7 +483,7 @@ a:active{
         width: 100%;
         display: none;
         flex-wrap: wrap;
-        justify-content: space-between;
+        justify-content: flex-start;
     }
 
     #flex-container_important{
@@ -491,7 +491,7 @@ a:active{
         width: 100%;
         display: none;
         flex-wrap: wrap;
-        justify-content: space-between;
+        justify-content: flex-start;
     }
 
     #flex-container_others{
@@ -499,11 +499,11 @@ a:active{
         width: 100%;
         display: none;
         flex-wrap: wrap;
-        justify-content: space-between;
+        justify-content: flex-start;
     }
 
     #flex-contents{
-        width: 27%;
+        width: 28%;
         margin: 10px 2.5%;
         padding-bottom: 15px;
         position: relative;
