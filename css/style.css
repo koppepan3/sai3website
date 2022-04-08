@@ -201,6 +201,15 @@ a:active{
         bottom: 0;
         width: 70vw;
     }
+
+    .junbichu{
+        text-align: center;
+        font-family: 'Noto Sans JP', sans-serif;
+        font-weight: 700;
+        letter-spacing: 2px;
+        font-size: 16px;
+        margin: 50px auto 300px;
+    }
 }
 
 @media only screen and (min-width: 601px) {
@@ -425,6 +434,15 @@ a:active{
         right: 40px;
         bottom: 0;
         height: 50px;
+    }
+
+    .junbichu{
+        text-align: center;
+        font-family: 'Noto Sans JP', sans-serif;
+        font-weight: 700;
+        letter-spacing: 2px;
+        font-size: 22px;
+        margin: 0 auto 500px;
     }
 
     @media only screen and (max-width: 1000px){
