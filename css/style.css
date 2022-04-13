@@ -22,7 +22,7 @@ a:active{
 
 @media only screen and (max-width: 600px) {
     .header_icon{
-        width:100px;
+        width:125px;
         top: 13px;
         left: 13px;
         position: fixed;
@@ -149,7 +149,7 @@ a:active{
     }
 
     .footer_icon{
-        width:25vw;
+        width:35vw;
         margin: 0;
         display: inline-block;
         padding-top: 6vw;
@@ -163,7 +163,7 @@ a:active{
         display: inline-block;
         height: 300px;
         position: absolute;
-        top: 18vw;
+        top: 22vw;
         left: 8vw;
     }
 
@@ -174,7 +174,7 @@ a:active{
         display: inline-block;
         height: 300px;
         position: absolute;
-        top: 18vw;
+        top: 22vw;
         left: 43vw;
     }
 
@@ -214,7 +214,7 @@ a:active{
 
 @media only screen and (min-width: 601px) {
     .header_icon{
-        width:100px;
+        width:135px;
         margin-top: 22px;
         margin-left: 22px;
     }
@@ -383,7 +383,7 @@ a:active{
     }
 
     .footer_icon{
-        width:120px;
+        width:135px;
         margin: 0;
         display: inline-block;
         padding-top: 50px;
