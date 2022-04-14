@@ -620,11 +620,11 @@
         width: 100%;
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-between;
+        justify-content: flex-start;
     }
 
     #flex-contents{
-        width: 28%;
+        width: 29%;
         margin: 10px 2%;
         padding-bottom: 15px;
         position: relative;
