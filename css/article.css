@@ -96,6 +96,10 @@ a:active{
         line-height: 32px;
         letter-spacing: 0.96px;
     }
+    
+    .red-highlighted{
+        color: #E03726 !important;
+    }
 
     .slider_contrainer{
         width: 100%;
@@ -366,6 +370,10 @@ a:active{
         font-size: 16px;
         letter-spacing: 0.96px;
         line-height: 32px;
+    }
+    
+    .red-highlighted{
+        color: #E03726 !important;
     }
 
     .slider_contrainer{
