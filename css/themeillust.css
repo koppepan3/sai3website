@@ -64,9 +64,11 @@ a:active{
     }
     
     .slider img {
-        width:90%;/*スライダー内の画像を横幅100%に*/
+        width:100%;/*スライダー内の画像を横幅100%に*/
         height:auto;
-        margin: 0 5%;
+        margin: 0;
+        border-radius: 10px;
+        border: none;
     }
     
     /*slickのJSで書かれるタグ内、スライド左右の余白調整*/
@@ -178,6 +180,7 @@ a:active{
     .slider img {
         width:100%;/*スライダー内の画像を横幅100%に*/
         height:auto;
+        border-radius: 10px;
     }
     
     /*slickのJSで書かれるタグ内、スライド左右の余白調整*/
