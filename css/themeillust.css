@@ -122,42 +122,6 @@ a:active{
         background:#333;/*ドットボタンの現在地表示の色*/
     }
 
-    .download_button{
-        border: 2px solid #9BC3C9;
-        color: black;
-        padding: 8px 0 8px 0;
-        text-align: center;
-        text-decoration: none;
-        display: block;
-        margin: 30px auto 70px;
-        cursor: pointer;
-        border-radius: 100px;
-        width: 70vw;
-        position: relative;
-        transition: all 0.5s;
-    }
-
-
-    .download_button img{
-        height: 30px;
-        padding: 0;
-        margin: 0px 5px;
-        position: absolute;
-        top: 50%;
-        left: 15px;
-        transform: translateY(-50%);
-        -webkit- transform: translateY(-50%);
-    }
-
-    .download_button h3{
-        font-family: 'Noto Sans JP', sans-serif;
-        font-weight: 700;
-        letter-spacing: 2px;
-        font-size: 13px;
-        margin: 0;
-        padding: 0 0 0 20px;
-    }
-
 }
 
 
@@ -267,44 +231,5 @@ a:active{
     }
     .slick-dots .slick-active button{
         background:#333;/*ドットボタンの現在地表示の色*/
-    }
-
-    .download_button{
-        border: 2.5px solid #9BC3C9;
-        color: black;
-        padding: 6px 0 6px 20px;
-        text-align: center;
-        text-decoration: none;
-        display: block;
-        margin: 60px auto 120px;
-        cursor: pointer;
-        border-radius: 30px;
-        width: 350px;
-        position: relative;
-        transition: all 0.5s;
-    }
-
-    .download_button:hover{
-        background: #d5e9ec;
-    }
-
-    .download_button img{
-        height: 32px;
-        padding: 0;
-        margin: 0px 5px;
-        position: absolute;
-        top: 50%;
-        left: 40px;
-        transform: translateY(-50%);
-        -webkit- transform: translateY(-50%);
-    }
-
-    .download_button h3{
-        font-family:"Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体";
-        font-weight: 700;
-        letter-spacing: 2px;
-        font-size: 20px;
-        margin: 0;
-        padding: 0 0 0 20px;
     }
 }
