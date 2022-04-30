@@ -2,13 +2,13 @@
 	$('.slider').slick({
 		autoplay: false,//自動的に動き出すか。初期値はfalse。
 		speed: 200,
-		infinite: false,//スライドをループさせるかどうか。初期値はtrue。
-		slidesToShow: 1,//スライドを画面に1枚見せる
-		slidesToScroll: 1,//1回のスクロールで1枚の写真を移動して見せる
+		infinite: true,//スライドをループさせるかどうか。初期値はtrue。
+		slidesToShow: 2,//スライドを画面に1枚見せる
+		slidesToScroll: 2,//1回のスクロールで1枚の写真を移動して見せる
 		prevArrow: '<div class="slick-prev"></div>',//矢印部分PreviewのHTMLを変更
 		nextArrow: '<div class="slick-next"></div>',//矢印部分NextのHTMLを変更
 		dots: true,//下部ドットナビゲーションの表示
-		lazyLoad:　'progressive' , //画像をすべて先に読み込む
+		lazyLoad:'ondemand' , //画像をすべて先に読み込む
 		responsive: [
 			{
 			breakpoint: 600,//モニターの横幅が769px以下の見せ方
