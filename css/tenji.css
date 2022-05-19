@@ -267,29 +267,11 @@ a:active{
         width: 48%;
         margin: 10px 0;
         padding: 0;
-        position: relative;
         display: inline-block;
     }
 
-    #hr_tenji img{
-        width: 42%;
-        display: inline-block;
-        margin: 8px 2%;
-        padding: 0;
-    }
-
-    #hr_tenji_description{
-        width: 53%;
-        display: inline-block;
-        margin: 0 0 0 3%;
-        padding: 0;
-        position: absolute;
-        top: 0;
-        right: 0;
-    }
-
-    #hr_tenji_description h2{
-        font-size:15px;
+    #hr_tenji h2{
+        font-size:12px;
         line-height: 15px;
         padding:  12px 0 2px; 
         margin: 0;
@@ -298,7 +280,7 @@ a:active{
         letter-spacing: 1.2px;
     }
 
-    #hr_tenji_description h1{
+    #hr_tenji h1{
         font-size:17px;
         line-height: 26px;
         padding: 2px 0; 
@@ -308,7 +290,7 @@ a:active{
         letter-spacing: 1.2px;
     }
 
-    #hr_tenji_description p{
+    #hr_tenji p{
         font-size:13px;
         line-height: 170%;
         padding: 2px 0 0; 
@@ -422,55 +404,39 @@ a:active{
     }
 
     #hr_tenji{
-        width: 48%;
+        width: 25%;
         margin: 10px 0;
-        padding: 0;
-        position: relative;
+        padding: 12px;
         display: inline-block;
+        border: 2px solid black;
+        border-radius: 10px;
     }
 
-    #hr_tenji img{
-        width: 40%;
-        display: inline-block;
-        margin: 10px 2.5%;
-        padding: 0;
-    }
-
-    #hr_tenji_description{
-        width: 50%;
-        display: inline-block;
-        margin: 0 0 0 5%;
-        padding: 0;
-        position: absolute;
-        top: 0;
-        right: 0;
-    }
-
-    #hr_tenji_description h2{
-        font-size:min(19px,1.5vw);
-        line-height: 19px;
-        padding:  1vw 0 0.5vw; 
+    #hr_tenji h2{
+        font-size:12px;
+        line-height: 15px;
+        padding:  6px 0 2px; 
         margin: 0;
         font-family:"Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体",'Noto Sans JP';
         font-weight: 600;
         letter-spacing: 1.2px;
     }
 
-    #hr_tenji_description h1{
-        font-size:min(26px,2vw);
+    #hr_tenji h1{
+        font-size:17px;
         line-height: 26px;
-        padding: 0.6vw 0; 
-        margin: 0;
+        padding: 2px 0; 
+        margin: 2px 0 0;
         font-family:"Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体",'Noto Sans JP';
         font-weight: 600;
         letter-spacing: 1.2px;
     }
 
-    #hr_tenji_description p{
-        font-size:min(17px,1.4vw);
+    #hr_tenji p{
+        font-size:13px;
         line-height: 170%;
-        padding: 1vw 0 0; 
-        margin:  0 ;
+        padding: 2px 0 0; 
+        margin: 4px 0 0;
         font-family:"Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体",'Noto Sans JP';
         font-weight: 500;
         letter-spacing: 1.2px;
