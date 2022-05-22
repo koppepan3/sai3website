@@ -387,25 +387,31 @@ a:active{
         background-color: #8CB5D8;
     }
 
-    #kouichi{
-        max-width: 25vw;
-        height: 70px;
+    #kouichi,#kouni,#kousan,#buten{
+        max-width: 20vw;
+        height: 60px;
         margin: 0;
         padding: 20px 0;
         display: block;
     }
 
-    #kouni{
-        max-width: 25vw;
-        height: 70px;
-        margin: 0;
-        padding: 20px 0;
-        display: block;
+    #kouni,#kousan,#buten{
+        margin-top: 40px !important;
+    }
+
+
+
+    #hr_flex{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        flex-direction: row;
     }
 
     #hr_tenji{
-        width: 25%;
-        margin: 10px 0;
+        width: 280px;
+        height: 150px;
+        margin: 13px 0;
         padding: 12px;
         display: inline-block;
         border: 2px solid black;
