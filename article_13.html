@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>休日準備日の様子/彩西祭2022</title>
+        <meta name=”description” content="2022年度浜松西高等学校・同中等部文化祭「彩西祭」公式ウェブサイトへようこそ。当日の情報から準備の様子まで、様々なことを発信していきます。" />
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/article.css">
+        <!-- Googlebot-->
+        <meta name="robots" content="noindex">
+        <!-- Favicon設定-->
+        <link rel="apple-touch-icon" href="file/favicon/apple-touch-icon.png">
+        <link type="image/x-icon" rel="icon" href="file/favicon/favicon.ico">
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-3QLX3J4X3K"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-3QLX3J4X3K');
+        </script>
+        <!--  Slick css 読み込み  -->
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+        <!--  Google Font 読み込み  -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Hind:wght@700&family=Montserrat:wght@500&family=Noto+Sans+JP:wght@300;400;700&display=swap" rel="stylesheet">  
+    </head>
+    <body>
+        <div class="header">
+            <div class="justbackground"></div>
+            <a href="index.html"><img class="header_icon" src="file/icon.svg" alt="sai3 icon"></a>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <nav class="hamburger_list">
+                <a href="index.html"><h1 class="header_home">HOME</h1></a>
+                <a href="index.html#contents_link"><h1 class="header_contents">CONTENTS</h1></a>
+                <a href="articles.html"><h1 class="header_articles">ARTICLES</h1></a>
+                <a href="about.html"><h1 class="header_about">ABOUT</h1></a>
+            </nav>
+        </div>
+        <img class="top_pics" src="file/article_12/DSC_0034.png">
+        <div class="body_content">
+            
+            <div class="article_title">
+                <h1>パンフレットの公開を開始しました</h1>
+                <div class="description_container">
+                    <img class="icon" src="file\icon_kakuhanchou.png">
+                    <h2 class="name">ポスターパンフレット班</h2>
+                    <h2 class="date">May 23, 2022</h2>
+                </div>
+                
+            </div>
+            <div class="text">
+                <p>　今年度のパンフレットのデジタル版を公開しました。当日の展示内容や企画などが確認できます。<a href="pamphlet.html" style="color: orange; text-decoration : underline;">こちら</a>のページからご覧いただけるので、是非ご確認ください。
+                </p>
+            </div>
+            <div class="slider_contrainer">
+                <!--
+                <ul class="slider">
+                </ul>-->
+            </div>
+        </div>
+        <div class="shinchaku">
+            <img class="shinchaku_logo" src="file\sinchaku.svg">
+            <a class="articles_home_link" href="articles.html">すべての記事を見る→</a>
+            <div id="loadpost"></div>
+        </div>
+        
+        <div class="footer">
+            <a href="index.html"><img class="footer_icon" src="file/icon.svg" alt="sai3 icon"></a>
+            <ul class="footer_links_left" id="footer_links">
+                <a href="about.html"><li><img src="file\footer\about.svg" alt="彩西祭について"></li></a>
+                <a href="map.html"><li><img src="file\footer\map.svg" alt="校内マップ"></li></a>
+                <a href="timetable.html"><li><img src="file\footer\table.svg" alt="タイムテーブル"></li></a>
+            </ul>
+            <ul class="footer_links_right" id="footer_links">
+                <a href="tenji.html"><li><img src="file\footer\tenji.svg" alt="展示紹介"></li></a>
+                <a href="http://www.edu.pref.shizuoka.jp/hamamatsunishi-h/home.nsf/IndexFormView?OpenView"><li><img src="file\footer\HPsasikae.svg" alt="浜松西高等学校HP"></li></a>
+            </ul>
+            <div class="address_container"><img src="file\footer\address.svg" alt=""></div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+        <script>
+            $(function() {
+                $('.hamburger').click(function() {
+                    $(this).toggleClass('active');
+            
+                    if ($(this).hasClass('active')) {
+                        $('.hamburger_list').addClass('active');
+                    } else {
+                        $('.hamburger_list').removeClass('active');
+                    }
+                });
+            });
+        </script>
+        <!--EmbedPost読み込み JS-->
+        <script>
+            $(function(){
+                $("#loadpost").load("latestposts.html");
+            });
+        </script>
+         <!--Slick js-->
+        <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+        <!--自作のJS-->
+        <script src="panfu_slicksettings.js"></script>
+    </body>
+</html>
