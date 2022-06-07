@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -5,8 +6,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>彩西祭2022</title>
         <meta name=”description” content="2022年度浜松西高等学校・同中等部文化祭「彩西祭」公式ウェブサイトへようこそ。当日の情報から準備の様子まで、様々なことを発信していきます。" />
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="css/index.css">
+        <link rel="stylesheet" href="css/style.css?">
+        <link rel="stylesheet" href="css/index.css?">
         <!-- Favicon設定-->
         <link rel="apple-touch-icon" href="file/favicon/apple-touch-icon.png">
         <link type="image/x-icon" rel="icon" href="file/favicon/favicon.ico">
@@ -44,8 +45,8 @@
             </nav>
         </div>
         <div class="top_image">
-            <img class="img_pc" id="top_pc" src="file\hero_pc\0.png" alt="sai3 image">
-            <img class="img_mobile" id="top_mobile" src="file\hero_mobile\0.png" alt="sai3 image">
+            <img class="img_pc" id="top_pc" src="file\hero_pc\-2.png?" alt="sai3 image">
+            <img class="img_mobile" id="top_mobile" src="file\hero_mobile\-2.png?" alt="sai3 image">
         </div>
         <div class="body_contents">  
             <div class="notice">
@@ -112,7 +113,7 @@
                         <!--<div class="swiper-slide"><a href="kurat.html"><img src="file/slider/kuraT.png" alt=""><p>クラT紹介</p></a></div>-->
                         <div class="swiper-slide"><a href="themeillust.html"><img src="file/slider/themeillust.png" alt=""><p>テーマイラスト紹介</p></a></div>
                         <div class="swiper-slide"><a href="map.html"><img src="file/slider/map.png" alt=""><p>マップ</p></a></div>
-                        <div class="swiper-slide"><a href="timetable.html"><img src="file/slider/timetable.png" alt=""><p>タイムテーブル</p></a></div>
+                        <!--<div class="swiper-slide"><a href="timetable.html"><img src="file/slider/timetable.png" alt=""><p>タイムテーブル</p></a></div>-->
                         <!--<div class="swiper-slide"><a href=""><img src="file/slider/live.png" alt=""><p>ライブ配信</p></a></div>-->
                         <!--<div class="swiper-slide"><a href="experience.html"><img src="file/slider/tenjiexperience.png" alt=""><p>展示体験</p></a></div>-->
                         <!--<div class="swiper-slide"><a href=""><img src="file/slider/gallery.png" alt=""><p>ギャラリー</p></a></div>-->
@@ -164,21 +165,6 @@
                 $("#loadpost").load("latestposts.html");
             });
         </script>
-        <!--トップ画像入れ替え JS-->
-        <script>
-            window.onload = function () {
-            
-            // 今日の日付
-            var date1 = new Date(Date.now());
-            //文化祭
-            var date2 = new Date("2022/06/03");
-            var termDay = (date2 - date1) / 86400000;
-            var termDayRounded = Math.ceil(termDay);
-            document.getElementById('top_pc').src = 'file/hero_pc/'+ termDayRounded + '.png';
-            document.getElementById('top_mobile').src = 'file/hero_mobile/'+ termDayRounded + '.png';
-            };
-        </script>
-
         <!--Swiper JS-->
         <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
         <script>
